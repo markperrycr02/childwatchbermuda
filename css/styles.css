@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
+:root {
+  --primary-color: #8f2222;
+  --sideMargins: 0 3em 0 3em;
+  --secondary-color: #ffa801;
+}
+
+*,
+before,
+after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.hero-content {
+  display: grid;
+  column-gap: 3em;
+  row-gap: 6.5em;
+  grid-template-areas:
+    "title pic pic"
+    "quote pic pic"
+    "missionbtn pic pic";
+  padding: var(--sideMargins);
+  padding: 3em 8em 2em 8em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 5em;
+  background-color: #ffffff;
+  width: 100%;
+  padding: var(--sideMargins);
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  column-gap: 2.5em;
+}
+
+.menu-items li {
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.title {
+  grid-area: title;
+
+  font-size: 2.7em;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.pic {
+  grid-area: pic;
+  grid-column-start: 3;
+}
+
+.pic img {
+  float: right;
+}
+
+.map {
+  width: 406px;
+  width: 440px;
+  z-index: -1;
+}
+
+.mission-button {
+  grid-area: missionbtn;
+}
+
+.mission-button button {
+  width: 13em;
+  height: 2.6em;
+  font-family: inherit;
+  font-size: 1.5em;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border-style: none;
+}
+
+.quote {
+  grid-area: quote;
+  width: 20em;
+  color: #fff;
+  line-height: 2em;
+  font-size: 1.3em;
+
+  font-weight: 100;
+}
