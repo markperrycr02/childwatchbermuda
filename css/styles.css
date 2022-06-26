@@ -127,7 +127,7 @@ body {
   width: 20em;
   color: #fff;
   line-height: 2em;
-  font-size: 1.6em;
+  font-size: 1.6rem;
 
   font-weight: 100;
 }
@@ -151,5 +151,12 @@ body {
   .pic img {
     width: 736px;
     height: 746px;
+  }
+
+  .title img {
+    width: 450px;
+  }
+  .quote {
+    font-size: 2rem;
   }
 }
