@@ -178,7 +178,7 @@ body {
     "missionbtn pic";
   }
   .pic img {
-
+    object-fit: contain;
     float: left;
   }
 } 
