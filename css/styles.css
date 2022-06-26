@@ -39,7 +39,6 @@ body {
   display: grid;
   column-gap: 3em;
   row-gap: 6.5em;
-  /* justify-content: center; */
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
@@ -162,13 +161,17 @@ body {
   }
 }
 
-/* Tablet */
+/* Tablets */
 @media only screen and (max-width: 1024px) {
   .hero-content {
     padding-top: 4em;
     padding-left: 4em;
     padding-right: 4em;
     row-gap: 2em;
+    grid-template-areas:
+      "title pic "
+      "quote pic "
+      "missionbtn pic";
   }
   .pic img {
     width: 450px;
