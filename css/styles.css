@@ -176,10 +176,10 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
 
-    grid-template-areas:
+    /* grid-template-areas:
       "title pic"
       "quote pic"
-      "missionbtn pic";
+      "missionbtn pic"; */
     background: linear-gradient(
       45deg,
       rgba(50, 13, 13, 0.9682466736694678) 0%,
