@@ -148,12 +148,8 @@ body {
 }
 
 @media only screen and (min-width: 1700px) {
-  .hero-content {
-    /* padding-left: 20em;
-    padding-right: 20em; */
-  }
   .pic img {
-    width: 636px;
-    height: 646px;
+    width: 736px;
+    height: 746px;
   }
 }
