@@ -18,20 +18,22 @@ after {
 }
 
 body {
-  background-color: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
     rgba(143, 34, 34, 1) 84%
-  );
+  ); */
   font-family: "Roboto Slab", serif;
+  overflow: hidden;
 }
 
 .container {
   display: flex;
   position: relative;
+  overflow: hidden;
 
-  width: 100vw;
-  height: 100vh - var(--navHeight);
+  /* width: 100vw; */
+  /* height: 100vh - var(--navHeight); */
   position: relative;
 
   background: rgb(50, 13, 13);
@@ -43,9 +45,6 @@ body {
   /* padding: 0 5em 0 5em; */
 }
 
-.hero-container {
-  display: flex;
-}
 .hero-content {
   position: relative;
   display: grid;
@@ -59,16 +58,18 @@ body {
   padding-left: 10em;
   padding-right: 10em;
   background: inherit;
+  overflow: hidden;
 }
 
 .navbar {
+  overflow: hidden;
+  position: relative;
   display: flex;
-
   justify-content: space-between;
   height: 10vh;
   background-color: #ffffff;
-  width: 100vw;
-  padding: var(--sideMargins);
+  /* width: 100vw; */
+  /* padding: var(--sideMargins); */
 }
 
 .menu-logo {
@@ -178,6 +179,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     row-gap: 4em;
+
     grid-template-areas:
       "title pic"
       "quote pic"
