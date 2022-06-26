@@ -19,7 +19,7 @@ after {
 
 body {
   font-family: "Roboto Slab", serif;
-  /* overflow: hidden; */
+  overflow-x: hidden;
   /* background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
