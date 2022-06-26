@@ -161,7 +161,7 @@ body {
 }
 
 /* Tablets */
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .hero-content {
     padding-left: 12em;
     padding-right: 12em;
@@ -176,4 +176,4 @@ body {
     height: 350px;
     float: left;
   }
-}
+} */
