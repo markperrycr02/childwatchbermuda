@@ -167,7 +167,7 @@ body {
 }
 
 /* Tablets */
- @media only screen and (max-width: 760px) { 
+ @media only screen and (min-width: 760px) { 
   .hero-content {
     padding-left: 0;
     padding-right: 0;
