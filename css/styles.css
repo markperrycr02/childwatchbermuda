@@ -189,6 +189,10 @@ body {
       rgba(143, 34, 34, 1) 84%
     );
   }
+
+  .navbar {
+    height: 10%;
+  }
   .container {
     height: 90%;
   }
