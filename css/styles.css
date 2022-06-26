@@ -26,6 +26,7 @@ body {
 }
 
 .container {
+  display:flex;
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -103,7 +104,6 @@ body {
 
 .pic img {
   float: right;
-  box-shadow: border;
   width: 536px;
   height: 546px;
 }
@@ -176,8 +176,8 @@ body {
     padding-right: 1em;
     row-gap: 4em;
     grid-template-areas:
-    "title pic "
-    "quote pic "
+    "title pic"
+    "quote pic"
     "missionbtn pic";
     background: linear-gradient(
       45deg,
@@ -186,7 +186,7 @@ body {
     );
   }
   .pic img {
-    object-fit: contain;
- 
+  
+    grid-column-start: 2;
   }
 } 
