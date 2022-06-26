@@ -45,7 +45,7 @@ body {
 
 .hero-content {
   position: relative;
-
+  width: 100vw;
   display: grid;
   column-gap: 3em;
   height: 90vh;
@@ -64,7 +64,7 @@ body {
   justify-content: space-between;
   height: 10vh;
   background-color: #ffffff;
-  width: 100%;
+  width: 100vw;
   padding: var(--sideMargins);
   overflow: hidden;
 }
