@@ -180,8 +180,8 @@ body {
     );
   }
   .pic img {
-    width: 436px;
-    height: 446px;
+    width: 400px;
+    height: 400px;
     grid-column-start: 2;
   }
 }
