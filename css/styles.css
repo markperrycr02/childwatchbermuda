@@ -163,9 +163,8 @@ body {
 /* Tablets */
 @media only screen and (max-width: 1024px) {
   .hero-content {
-    padding-top: 4em;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 12em;
+    padding-right: 12em;
     row-gap: 2em;
     grid-template-areas:
       "title pic "
