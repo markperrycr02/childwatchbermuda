@@ -147,6 +147,7 @@ body {
   animation: fadeIn 2s;
 }
 
+/* Large screens */
 @media only screen and (min-width: 1700px) {
   .pic img {
     width: 736px;
@@ -158,5 +159,14 @@ body {
   }
   .quote {
     font-size: 2rem;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 1024px) {
+  .hero-content {
+    padding-top: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
   }
 }
