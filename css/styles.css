@@ -35,7 +35,7 @@ body {
 
 .hero-content {
   position: relative;
-  height: auto;
+
   display: grid;
   column-gap: 3em;
   row-gap: 6.5em;
@@ -43,7 +43,7 @@ body {
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
-  padding-top: 8em;
+  padding-top: 4em;
   padding-left: 10em;
   padding-right: 10em;
 }
