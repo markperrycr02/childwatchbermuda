@@ -42,7 +42,7 @@ body {
 
 .hero-content {
   /* position: relative; */
-  display: grid;
+  /* display: grid;
   column-gap: 3em;
   grid-template-areas:
     "title pic pic"
@@ -55,7 +55,7 @@ body {
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
     rgba(143, 34, 34, 1) 84%
-  );
+  ); */
 }
 
 .navbar {
