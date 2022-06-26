@@ -163,8 +163,8 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     height: auto;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1em;
+    padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
     row-gap: 3em;
