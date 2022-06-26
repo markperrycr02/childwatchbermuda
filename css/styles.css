@@ -48,7 +48,6 @@ body {
 }
 .hero-content {
   position: relative;
-  width: 100vw;
   display: grid;
   column-gap: 3em;
   height: 90vh;
