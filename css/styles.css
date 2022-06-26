@@ -90,13 +90,13 @@ body {
   font-size: 2.7em;
   letter-spacing: 0.02em;
   color: #fff;
-  grid-row: 1/3;
 }
 
 .pic {
   grid-area: pic;
   grid-column-start: 3;
   flex: 1 0;
+  grid-row: 1/3;
 }
 
 .pic img {
