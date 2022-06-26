@@ -20,6 +20,11 @@ after {
 body {
   font-family: "Roboto Slab", serif;
   overflow: hidden;
+  background: linear-gradient(
+    45deg,
+    rgba(50, 13, 13, 0.9682466736694678) 0%,
+    rgba(143, 34, 34, 1) 84%
+  );
 }
 
 .container {
@@ -28,7 +33,7 @@ body {
   overflow: hidden;
   position: relative;
 
-  background: rgb(50, 13, 13);
+  /* background: rgb(50, 13, 13); */
   background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
