@@ -183,5 +183,6 @@ body {
     width: 400px;
     height: 400px;
     grid-column-start: 2;
+    float: left;
   }
 }
