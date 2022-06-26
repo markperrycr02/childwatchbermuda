@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
 :root {
-  --primary-color: rgba(143, 34, 34, 1);
+  --primary-color: linear-gradient(
+    45deg,
+    rgba(50, 13, 13, 0.9682466736694678) 0%,
+    rgba(143, 34, 34, 1) 84%;)
+
   --sideMargins: 0 3em 0 3em;
   --secondary-color: #ffa801;
 }
