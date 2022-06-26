@@ -171,12 +171,12 @@ body {
   .hero-content {
     padding-left: 0;
     padding-right: 0;
-    row-gap: 1em;
+    row-gap: 3em;
 
   }
   .pic img {
     width: 350px;
     height: 350px;
-    float: left;
+    float: right;
   }
 } 
