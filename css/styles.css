@@ -43,6 +43,9 @@ body {
   /* padding: 0 5em 0 5em; */
 }
 
+.hero-container {
+  display: flex;
+}
 .hero-content {
   position: relative;
   width: 100vw;
