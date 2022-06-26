@@ -64,9 +64,8 @@ body {
   display: flex;
   justify-content: space-between;
   height: 10vh;
+  width: 100vw;
   background: #ffffff;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .menu-logo {
