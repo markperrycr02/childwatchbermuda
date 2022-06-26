@@ -79,7 +79,6 @@ body {
   align-items: center;
   list-style: none;
   column-gap: 2.5em;
-  width: 100%;
 }
 
 .menu-items li {
