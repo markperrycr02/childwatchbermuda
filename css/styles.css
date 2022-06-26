@@ -173,6 +173,6 @@ body {
   .pic img {
     width: 450px;
     height: 450x;
-    float: center;
+    float: none;
   }
 }
