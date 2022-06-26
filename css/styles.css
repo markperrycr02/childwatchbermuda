@@ -145,7 +145,7 @@ body {
 }
 
 .fade-in-image {
-  animation: fadeIn 5s;
+  animation: fadeIn 2s;
 }
 
 @media only screen and (min-width: 1400px) {
