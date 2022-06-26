@@ -179,7 +179,7 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
     width: 100%;
-    row-gap: 0.4em;
+    row-gap: 20px;
     grid-template-areas:
       "title pic"
       "quote pic"
