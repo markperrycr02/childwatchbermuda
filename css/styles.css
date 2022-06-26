@@ -3,8 +3,9 @@
   --primary-color: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
-    rgba(143, 34, 34, 1) 84%;)
-
+    rgba(143, 34, 34, 1) 84%
+  );
+  --navHeight: 5em;
   --sideMargins: 0 3em 0 3em;
   --secondary-color: #ffa801;
 }
@@ -21,15 +22,17 @@ body {
   background-color: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
-    rgba(143, 34, 34, 1) 84%);
+    rgba(143, 34, 34, 1) 84%
+  );
   font-family: "Roboto Slab", serif;
 }
 
 .container {
-  display:flex;
+  display: flex;
+  position: relative;
 
   width: 100vw;
-  height: 100vh;
+  height: 100vh - var(--navHeight);
   position: relative;
   /* scroll-behavior: smooth; */
   background: rgb(50, 13, 13);
@@ -64,7 +67,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 5em;
+  height: var(--navHeight);
   background-color: #ffffff;
   width: 100%;
   padding: var(--sideMargins);
@@ -171,15 +174,15 @@ body {
 }
 
 /* Tablets */
-@media (min-width: 768px) and (max-width: 1024px){ 
+@media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     padding-left: 1em;
     padding-right: 1em;
     row-gap: 4em;
     grid-template-areas:
-    "title pic"
-    "quote pic"
-    "missionbtn pic";
+      "title pic"
+      "quote pic"
+      "missionbtn pic";
     background: linear-gradient(
       45deg,
       rgba(50, 13, 13, 0.9682466736694678) 0%,
@@ -187,7 +190,6 @@ body {
     );
   }
   .pic img {
-  
     grid-column-start: 2;
   }
-} 
+}
