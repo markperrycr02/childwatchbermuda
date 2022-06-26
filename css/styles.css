@@ -63,12 +63,12 @@ body {
 
 .navbar {
   display: flex;
+
   justify-content: space-between;
   height: 10vh;
   background-color: #ffffff;
   width: 100vw;
   padding: var(--sideMargins);
-  overflow: hidden;
 }
 
 .menu-logo {
@@ -174,8 +174,9 @@ body {
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
-    padding-left: 1em;
-    padding-right: 1em;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
     row-gap: 4em;
     grid-template-areas:
       "title pic"
