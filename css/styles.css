@@ -19,7 +19,17 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background: rgb(50, 13, 13);
+  background: linear-gradient(
+    45deg,
+    rgba(50, 13, 13, 0.9682466736694678) 0%,
+    rgba(143, 34, 34, 1) 84%
+  );
+  padding: 0 5em 0 5em;
 }
 
 .hero-content {
@@ -31,7 +41,8 @@ body {
     "quote pic pic"
     "missionbtn pic pic";
   padding: var(--sideMargins);
-  padding: 3em 8em 2em 8em;
+  padding: 3em 3em 2em 3em;
+  overflow: hidden;
 }
 
 .navbar {
@@ -41,6 +52,7 @@ body {
   background-color: #ffffff;
   width: 100%;
   padding: var(--sideMargins);
+  overflow: hidden;
 }
 
 .menu-logo {
@@ -72,10 +84,14 @@ body {
 .pic {
   grid-area: pic;
   grid-column-start: 3;
+  flex: 1 0;
 }
 
 .pic img {
   float: right;
+  box-shadow: border;
+  width: 536px;
+  height: 546px;
 }
 
 .map {
@@ -96,6 +112,7 @@ body {
   background-color: var(--secondary-color);
   border-radius: 5px;
   border-style: none;
+  cursor: pointer;
 }
 
 .quote {
@@ -103,7 +120,22 @@ body {
   width: 20em;
   color: #fff;
   line-height: 2em;
-  font-size: 1.3em;
+  font-size: 1.6em;
 
   font-weight: 100;
+}
+
+/* Effects */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
 }
