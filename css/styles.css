@@ -21,6 +21,7 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
+  position: relative;
   overflow: hidden;
   scroll-behavior: smooth;
   background: rgb(50, 13, 13);
@@ -29,25 +30,29 @@ body {
     rgba(50, 13, 13, 0.9682466736694678) 0%,
     rgba(143, 34, 34, 1) 84%
   );
-  padding: 0 5em 0 5em;
+  /* padding: 0 5em 0 5em; */
 }
 
 .hero-content {
+  position: relative;
+  height: auto;
   display: grid;
   column-gap: 3em;
   row-gap: 6.5em;
+  /* justify-content: center; */
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
-  padding: var(--sideMargins);
-  /* padding: 3em 3em 2em 3em; */
-  padding: 5em 0 5em 0;
-  overflow: hidden;
+  padding-top: 6em;
+  /* padding: var(--sideMargins); */
+
+  /* overflow: hidden; */
 }
 
 .navbar {
   display: flex;
+  position: relative;
   justify-content: space-between;
   height: 5em;
   background-color: #ffffff;
@@ -139,4 +144,11 @@ body {
 
 .fade-in-image {
   animation: fadeIn 5s;
+}
+
+@media only screen and (min-width: 1400px) {
+  .hero-content {
+    padding-left: 10em;
+    padding-right: 10em;
+  }
 }
