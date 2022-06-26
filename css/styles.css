@@ -190,12 +190,6 @@ body {
     );
   }
 
-  .navbar {
-    /* height: 10%; */
-  }
-  .container {
-    height: 100%;
-  }
   .pic img {
     width: 400px;
     height: 400px;
