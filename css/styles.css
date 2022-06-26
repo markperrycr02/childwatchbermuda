@@ -191,10 +191,10 @@ body {
   }
 
   .navbar {
-    height: 10%;
+    /* height: 10%; */
   }
   .container {
-    height: 90%;
+    height: 100%;
   }
   .pic img {
     width: 400px;
