@@ -6,7 +6,6 @@
     rgba(143, 34, 34, 1) 84%
   );
   --navHeight: 5em;
-  --sideMargins: 0 3em 0 3em;
   --secondary-color: #ffa801;
 }
 
@@ -34,7 +33,7 @@ body {
   width: 100vw;
   height: 100vh - var(--navHeight);
   position: relative;
-  /* scroll-behavior: smooth; */
+
   background: rgb(50, 13, 13);
   background: linear-gradient(
     45deg,
@@ -49,7 +48,7 @@ body {
 
   display: grid;
   column-gap: 3em;
-  row-gap: 6.5em;
+  height: 90vh;
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
@@ -57,17 +56,13 @@ body {
   padding-top: 4em;
   padding-left: 10em;
   padding-right: 10em;
-  background: linear-gradient(
-    45deg,
-    rgba(50, 13, 13, 0.9682466736694678) 0%,
-    rgba(143, 34, 34, 1) 84%
-  );
+  background: inherit;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: var(--navHeight);
+  height: 10vh;
   background-color: #ffffff;
   width: 100%;
   padding: var(--sideMargins);
@@ -120,6 +115,7 @@ body {
 
 .mission-button {
   grid-area: missionbtn;
+  background-color: inherit;
 }
 
 .mission-button button {
