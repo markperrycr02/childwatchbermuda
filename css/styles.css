@@ -174,9 +174,9 @@ body {
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
-    padding-left: 1em;
+    /* padding-left: 1em;
     padding-right: 1em;
-    padding-top: 1em;
+    padding-top: 1em; */
     /* padding-bottom: 1em; */
     width: 100%;
     grid-template-areas:
