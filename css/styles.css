@@ -168,9 +168,10 @@ body {
     padding-top: 4em;
     padding-left: 4em;
     padding-right: 4em;
+    row-gap: 3.5em;
   }
   .pic img {
-    width: 336px;
-    height: 346px;
+    width: 400px;
+    height: 400x;
   }
 }
