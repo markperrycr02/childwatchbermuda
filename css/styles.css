@@ -172,10 +172,7 @@ body {
     padding-left: 0;
     padding-right: 0;
     row-gap: 1em;
-    grid-template-areas:
-      "title pic "
-      "quote pic "
-      "missionbtn pic";
+
   }
   .pic img {
     width: 350px;
