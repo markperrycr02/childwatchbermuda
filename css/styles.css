@@ -56,8 +56,6 @@ body {
 
 .navbar {
   display: flex;
-
-  z-index: 99;
   justify-content: space-between;
   height: 5em;
   background-color: #ffffff;
@@ -179,6 +177,6 @@ body {
   }
   .pic img {
     object-fit: contain;
-    float: left;
+ 
   }
 } 
