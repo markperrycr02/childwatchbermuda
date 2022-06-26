@@ -97,6 +97,7 @@ body {
   grid-area: pic;
   grid-column-start: 3;
   flex: 1 0;
+  overflow: hidden;
 }
 
 .pic img {
