@@ -8,6 +8,7 @@
   --navHeight: 5em;
   --secondary-color: #ffa801;
   --normal-padding: 8em 4em 8em 4em;
+  --large-side-padding: 8em 6em 8em 6em;
 }
 
 *,
@@ -165,9 +166,11 @@ body {
   }
   .hero-content {
     row-gap: 1em;
+    padding: var(--large-side-padding);
   }
 
   .navbar {
+    padding: var(--large-side-padding);
   }
 }
 
