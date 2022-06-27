@@ -7,8 +7,6 @@
   );
   --navHeight: 5em;
   --secondary-color: #ffa801;
-  --normal-padding: 8em 4em 8em 4em;
-  --large-side-padding: 8em 6em 8em 6em;
 }
 
 *,
@@ -170,7 +168,6 @@ body {
   }
 
   .navbar {
-    padding: var(--large-side-padding);
   }
 }
 
@@ -178,8 +175,8 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .pic img {
