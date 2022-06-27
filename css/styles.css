@@ -251,7 +251,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
-      "quote"
       "pic"
       "missionbtn";
   }
