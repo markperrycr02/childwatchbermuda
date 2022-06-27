@@ -240,8 +240,8 @@ body {
     width: 60px;
   }
 
-  .pic {
-    display: none;
+  .mobile-pic {
+    display: block;
   }
 
   .hero-content {
