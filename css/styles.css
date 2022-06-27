@@ -7,6 +7,7 @@
   );
   --navHeight: 5em;
   --secondary-color: #ffa801;
+  --normal-padding: 8em 4em 8em 4em;
 }
 
 *,
@@ -42,10 +43,7 @@ body {
 
 .hero-content {
   /* overflow: hidden; */
-  padding-top: 8em;
-  padding-bottom: 8em;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding: var(--normal-padding);
   display: grid;
   column-gap: 3em;
   row-gap: 3em;
@@ -53,7 +51,6 @@ body {
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
-
   height: 100vh;
   width: 100%;
 }
