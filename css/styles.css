@@ -254,7 +254,7 @@ body {
     padding-top: 1em;
     /* padding-bottom: 3em; */
     row-gap: 1.5em;
-    grid-template-rows: 100px 100px auto;
+    /* grid-template-rows: 100px 100px auto; */
     grid-template-columns: 1fr;
     grid-template-areas:
       "pic"
