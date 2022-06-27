@@ -240,6 +240,7 @@ body {
   }
 
   .pic {
+    display: none;
     grid-column-start: 1;
     flex: 1 0;
     grid-row: 1/1;
