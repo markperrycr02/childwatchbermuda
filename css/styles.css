@@ -247,14 +247,13 @@ body {
     padding-top: 2em;
     padding-bottom: 2em;
     row-gap: 1em;
+    grid-template-areas:
+      "title"
+      "quote"
+      "missionbtn";
   }
 
   .title {
     font-size: 2em;
   }
-
-  grid-template-areas:
-    "title"
-    "quote"
-    "missionbtn";
 }
