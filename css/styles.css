@@ -253,7 +253,7 @@ body {
     padding: 0;
 
     /* padding-top: 100px; */
-    row-gap: 4em;
+    row-gap: auto;
   }
   .navbar {
     padding-left: 10px;
