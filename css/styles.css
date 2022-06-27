@@ -156,6 +156,8 @@ body {
   .pic img {
     width: 760px;
     height: 760px;
+    padding-right: 1.5em;
+    margin-left: -8em;
   }
 
   .title img {
