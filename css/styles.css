@@ -140,6 +140,7 @@ body {
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .quote {
