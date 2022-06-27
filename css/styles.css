@@ -249,7 +249,7 @@ body {
     padding-bottom: 3em;
     row-gap: 2em;
     grid-template-rows: 150px 100px 100px;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "title"
       "quote"
