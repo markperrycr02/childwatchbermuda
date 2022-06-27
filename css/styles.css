@@ -275,6 +275,9 @@ body {
     font-size: 1.2em;
   }
 
+  .mission {
+    align-items: end;
+  }
   .mission-button button {
     color: #ffffff;
     width: 100%;
