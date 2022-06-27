@@ -253,7 +253,7 @@ body {
     flex-direction: column;
     padding: 0;
     height: 90vh;
-    padding-top: 10%;
+    padding-top: 11%;
     row-gap: 1em;
   }
   .navbar {
