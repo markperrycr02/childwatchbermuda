@@ -256,8 +256,10 @@ body {
     row-gap: 2em;
     grid-template-rows: 200px;
     /* grid-template-columns: 1fr; */
-    grid-template-areas: "missionbtn
-    null null";
+    grid-template-areas:
+      "missionbtn"
+      "null"
+      "null";
 
     height: 90vh;
   }
