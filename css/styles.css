@@ -238,9 +238,9 @@ body {
   .menu-logo img {
     width: 60px;
   }
-  .pic img {
-    width: 100px;
-    float: none;
+  .pic > img {
+    width: 300px;
+    float: left;
   }
   .hero-content {
     padding: 0;
