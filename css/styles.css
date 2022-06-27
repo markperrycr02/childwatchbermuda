@@ -167,6 +167,7 @@ body {
     font-size: 2rem;
   }
   .hero-content {
+    row-gap: 3em;
   }
 
   .navbar {
