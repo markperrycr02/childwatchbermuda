@@ -178,8 +178,8 @@ body {
   .hero-content {
     width: 100%;
 
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .pic img {
