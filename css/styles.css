@@ -253,7 +253,7 @@ body {
     flex-direction: column;
     padding: 0;
     padding-top: 20px;
-    height: 90vh;
+    height: 100vh;
 
     /* padding-top: 100px; */
     row-gap: auto;
