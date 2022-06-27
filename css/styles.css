@@ -153,7 +153,7 @@ body {
 /* Large screens */
 @media only screen and (min-width: 1920px) {
   .pic img {
-    width: 736px;
+    width: 1024px;
   }
 
   .title img {
