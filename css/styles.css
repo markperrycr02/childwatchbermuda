@@ -252,7 +252,7 @@ body {
     padding: 0;
     height: 88vh;
     /* padding-top: 100px; */
-    row-gap: 2.6em;
+    row-gap: 4em;
   }
   .navbar {
     padding-left: 10px;
