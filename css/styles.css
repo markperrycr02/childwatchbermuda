@@ -178,10 +178,8 @@ body {
   .hero-content {
     width: 100%;
 
-    grid-template-areas:
-      "title pic"
-      "quote pic"
-      "missionbtn pic";
+    padding-left: 3em;
+    padding-right: 3em;
   }
 
   .pic img {
