@@ -269,7 +269,8 @@ body {
   }
 
   .mission-button {
-    justify-items: end;
+    display: absolute;
+    bottom: 0;
   }
   .mission-button button {
     color: #ffffff;
