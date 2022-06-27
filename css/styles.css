@@ -250,7 +250,7 @@ body {
   }
   .hero-content {
     padding: 0;
-    margin: 2em;
+    margin-top: 2em;
     /* padding-top: 1em; */
     /* padding-bottom: 3em; */
     row-gap: 2em;
