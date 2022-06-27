@@ -260,7 +260,6 @@ body {
     grid-template-areas:
       "title"
       "quote"
-      "pic"
       "missionbtn";
   }
   .navbar {
