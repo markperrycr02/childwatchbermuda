@@ -43,7 +43,7 @@ body {
 
 .hero-content {
   /* overflow: hidden; */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   padding: var(--normal-padding);
   display: grid;
   column-gap: 3em;
