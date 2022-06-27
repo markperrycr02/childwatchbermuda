@@ -47,7 +47,7 @@ body {
   padding: var(--normal-padding);
   display: grid;
   column-gap: 3em;
-  row-gap: 3em;
+  row-gap: 1em;
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
@@ -88,6 +88,19 @@ body {
   font-size: 1.2em;
 }
 
+.menu-logo img {
+  width: 100px;
+}
+
+.menu-logo span {
+  display: flex;
+  align-items: center;
+}
+
+#menu-logo-image {
+  cursor: pointer;
+}
+
 .title {
   grid-area: title;
   font-size: 2.7em;
@@ -118,7 +131,7 @@ body {
 }
 
 .mission-button button {
-  width: 13em;
+  width: 10em;
   height: 2.6em;
   font-family: inherit;
   font-size: 1.5em;
