@@ -206,7 +206,7 @@ body {
 }
 
 /* Tablets */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 800px) {
   .hero-content {
     height: 90%;
     padding-left: 1.5em;
@@ -227,7 +227,7 @@ body {
 }
 
 /* Mobile */
-@media (min-width: 800px) {
+@media (max-width: 450px) {
   .pic img {
     width: 100px;
     height: 100px;
