@@ -134,13 +134,12 @@ body {
 .mission-button button {
   width: 10em;
   height: 2.6em;
-  font-family: inherit;
+  font-family: "Roboto Slab", serif;
   font-size: 1.5em;
   background-color: var(--secondary-color);
   border-radius: 5px;
   border-style: none;
   cursor: pointer;
-  font-family: inherit;
 }
 
 .quote {
