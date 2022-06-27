@@ -241,15 +241,10 @@ body {
 
   .pic {
     display: none;
-    grid-column-start: 1;
-    flex: 1 0;
-    grid-row: 1/1;
   }
-  .pic > img {
-    width: 200px;
-    float: none;
-  }
+
   .hero-content {
+    border: 1px solid #ccc;
     justify-content: center;
     display: flex;
     flex-direction: column;
