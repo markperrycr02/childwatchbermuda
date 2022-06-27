@@ -264,4 +264,8 @@ body {
   .quote {
     font-size: 1.2em;
   }
+
+  .mission-button {
+    color: #ffffff;
+  }
 }
