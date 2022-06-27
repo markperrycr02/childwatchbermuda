@@ -206,6 +206,7 @@ body {
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
+    height: 100%;
     padding-left: 1.5em;
     padding-top: 4.8em;
     row-gap: 0.2em;
