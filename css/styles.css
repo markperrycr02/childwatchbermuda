@@ -177,9 +177,7 @@ body {
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
-    width: 100%;
-    /* padding-right: 1.5em;
-    padding-left: 1.5em; */
+    width: 100vw;
   }
 
   .pic {
@@ -189,7 +187,7 @@ body {
   .pic img {
     width: 400px;
     height: 400px;
-    grid-column-start: 2;
+    /* grid-column-start: 2; */
     float: left;
   }
 }
