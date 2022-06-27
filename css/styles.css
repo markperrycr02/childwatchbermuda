@@ -250,7 +250,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
-    height: 88vh;
+    height: 60vh;
     /* padding-top: 100px; */
     row-gap: 4em;
   }
