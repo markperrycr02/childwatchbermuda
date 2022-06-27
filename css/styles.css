@@ -228,6 +228,7 @@ body {
 /* Mobile */
 @media (max-width: 1023px) {
   .container {
+    padding:top:0;
     text-align: center;
   }
   .menu-items li {
