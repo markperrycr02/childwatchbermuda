@@ -257,7 +257,7 @@ body {
     grid-template-rows: 200px;
     /* grid-template-columns: 1fr; */
     grid-template-areas: "missionbtn
-    null, missionnull";
+    null null";
 
     height: 90vh;
   }
