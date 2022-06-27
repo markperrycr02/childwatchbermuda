@@ -244,6 +244,8 @@ body {
   .hero-content {
     padding: 0;
     margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 
   .title {
