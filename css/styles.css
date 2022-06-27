@@ -255,6 +255,7 @@ body {
 
   .title {
     font-size: 2em;
+    justify-content: center;
   }
   .quote {
     font: ;
