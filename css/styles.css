@@ -247,7 +247,9 @@ body {
       "quote"
       "missionbtn";
   }
-
+  .navbar {
+    padding-left: 0;
+  }
   .title {
     font-size: 2em;
     justify-content: center;
