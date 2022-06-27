@@ -113,7 +113,6 @@ body {
 .map {
   width: 406px;
   width: 440px;
-  z-index: -1;
 }
 
 .mission-button {
@@ -166,6 +165,10 @@ body {
   }
   .quote {
     font-size: 1.5rem;
+  }
+  .hero-content {
+    padding-top: 8em;
+    padding-bottom: 4em;
   }
 }
 
