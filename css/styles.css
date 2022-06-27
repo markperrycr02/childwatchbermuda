@@ -219,7 +219,7 @@ body {
   .pic img {
     width: 450px;
     height: 450px;
-    margin-left: -8em;
+    /* margin-left: -8em; */
 
     float: left;
   }
