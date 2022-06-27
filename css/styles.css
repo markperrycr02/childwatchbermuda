@@ -159,6 +159,9 @@ body {
     padding-right: 1.5em;
     margin-left: -8em;
   }
+  .menu-items li {
+    font-size: 1.4em;
+  }
 
   .title img {
     width: 450px;
