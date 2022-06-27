@@ -248,7 +248,10 @@ body {
       "missionbtn";
   }
   .navbar {
-    padding-left: 0;
+    padding-left: 10px;
+  }
+  .navbar > span {
+    font-size: 1em;
   }
   .title {
     font-size: 2em;
