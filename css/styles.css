@@ -254,6 +254,7 @@ body {
     padding: 0;
     height: 90vh;
     padding-top: 10%;
+    row-gap: 1em;
   }
   .navbar {
     padding-left: 10px;
