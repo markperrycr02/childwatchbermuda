@@ -251,6 +251,7 @@ body {
   .hero-content {
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
   .navbar {
     padding-left: 10px;
