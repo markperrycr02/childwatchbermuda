@@ -252,7 +252,7 @@ body {
     margin: 0;
     /* padding-top: 1em; */
     /* padding-bottom: 3em; */
-    row-gap: 1.5em;
+    row-gap: 2em;
     /* grid-template-rows: 100px 100px auto; */
     /* grid-template-columns: 1fr; */
     grid-template-areas:
