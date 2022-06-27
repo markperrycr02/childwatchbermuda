@@ -228,9 +228,6 @@ body {
 
 /* Mobile */
 @media (max-width: 799px) {
-  .container {
-    overflow-x: visible;
-  }
   .menu-items li {
     display: none;
   }
@@ -256,6 +253,6 @@ body {
     justify-content: center;
   }
   .quote {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
