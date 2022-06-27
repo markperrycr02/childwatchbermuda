@@ -211,7 +211,9 @@ body {
     padding-top: 4.8em;
     row-gap: 0.2em;
   }
-
+  .container {
+    padding-top: 5em;
+  }
   .pic img {
     width: 500px;
     height: 500px;
