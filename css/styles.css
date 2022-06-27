@@ -177,7 +177,7 @@ body {
   .hero-content {
     padding-left: 1.5em;
     padding-top: 7em;
-    row-gap: 1em;
+    row-gap: 0.2em;
   }
 
   .pic img {
