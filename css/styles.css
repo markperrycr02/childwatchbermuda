@@ -53,8 +53,8 @@ body {
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
-
   width: 100%;
+  height: 100vh;
 }
 
 .navbar {
