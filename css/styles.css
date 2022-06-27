@@ -239,7 +239,10 @@ body {
   .menu-logo img {
     display: none;
   }
-
+  .pic img {
+    width: 200px;
+    height: 200px;
+  }
   .hero-content {
     padding: 0;
     margin: 0;
@@ -250,6 +253,7 @@ body {
     grid-template-areas:
       "title"
       "quote"
+      "pic"
       "missionbtn";
   }
   .navbar {
