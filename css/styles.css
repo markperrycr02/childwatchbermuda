@@ -250,6 +250,7 @@ body {
     float: none;
   }
   .hero-content {
+    justify-content: center;
     display: flex;
     flex-direction: column;
     padding: 0;
