@@ -228,7 +228,7 @@ body {
 /* Mobile */
 @media (max-width: 1023px) {
   .container {
-    padding:top:0;
+    padding-top: 0;
     text-align: center;
   }
   .menu-items li {
@@ -256,8 +256,8 @@ body {
     row-gap: 2em;
     /* grid-template-rows: 200px auto auto; */
     /* grid-template-columns: 1fr; */
-    grid-template-areas:
-      "pic"
+    grid-template-areas: "pic";
+
     height: 90vh;
   }
   .navbar {
