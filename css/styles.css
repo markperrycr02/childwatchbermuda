@@ -249,19 +249,8 @@ body {
     float: none;
   }
   .hero-content {
-    padding: 0;
-    margin-top: 2em;
-    /* padding-top: 1em; */
-    /* padding-bottom: 3em; */
-    row-gap: 2em;
-    grid-template-rows: "200px";
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "missionbtn"
-      "null"
-      "null";
-
-    height: 90vh;
+    display: flex;
+    flex-direction: column;
   }
   .navbar {
     padding-left: 10px;
