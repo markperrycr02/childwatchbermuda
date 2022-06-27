@@ -232,4 +232,12 @@ body {
     width: 100px;
     height: 100px;
   }
+
+  .menu-items li {
+    display: none;
+  }
+
+  .menu-logo img {
+    display: none;
+  }
 }
