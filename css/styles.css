@@ -246,7 +246,7 @@ body {
   }
   .pic > img {
     width: 200px;
-    float: left;
+    float: none;
   }
   .hero-content {
     padding: 0;
