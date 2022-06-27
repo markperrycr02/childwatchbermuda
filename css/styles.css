@@ -238,6 +238,12 @@ body {
   .menu-logo img {
     width: 60px;
   }
+
+  .pic {
+    grid-column-start: 1;
+    flex: 1 0;
+    grid-row: 1/1;
+  }
   .pic > img {
     width: 300px;
     float: left;
