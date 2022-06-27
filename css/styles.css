@@ -154,8 +154,8 @@ body {
 /* Large screens */
 @media only screen and (min-width: 1920px) {
   .pic img {
-    width: 780px;
-    height: 780px;
+    width: 760px;
+    height: 760px;
   }
 
   .title img {
@@ -176,8 +176,8 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
   }
 
   .pic {
