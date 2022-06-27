@@ -254,10 +254,9 @@ body {
     padding-top: 1em;
     /* padding-bottom: 3em; */
     row-gap: 1.5em;
-    grid-template-rows: 100px 100px auto 100px;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
-      "title"
       "pic"
       "quote"
       "missionbtn";
