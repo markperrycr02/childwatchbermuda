@@ -254,8 +254,8 @@ body {
     /* padding-top: 1em; */
     /* padding-bottom: 3em; */
     row-gap: 2em;
-    grid-template-rows: 200px;
-    /* grid-template-columns: 1fr; */
+    grid-template-rows: "200px";
+    grid-template-columns: 1fr;
     grid-template-areas:
       "missionbtn"
       "null"
