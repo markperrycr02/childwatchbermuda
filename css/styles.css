@@ -239,7 +239,7 @@ body {
   .menu-logo img {
     display: none;
   }
-  .pic img {
+  .pic {
     width: 200px;
     height: 200px;
   }
