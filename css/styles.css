@@ -156,15 +156,15 @@ body {
 /* Large screens */
 @media only screen and (min-width: 1700px) {
   .pic img {
-    width: 636px;
-    height: 646px;
+    width: 736px;
+    height: 746px;
   }
 
   .title img {
-    width: 350px;
+    width: 450px;
   }
   .quote {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .hero-content {
   }
@@ -177,7 +177,6 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     width: 100%;
-
     padding-left: 0;
     padding-right: 0;
   }
