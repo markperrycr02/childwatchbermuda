@@ -227,12 +227,10 @@ body {
 }
 
 /* Mobile */
-@media (max-width: 450px) {
-  .pic img {
-    width: 100px;
-    height: 100px;
+@media (max-width: 799px) {
+  .container {
+    overflow-x: visible;
   }
-
   .menu-items li {
     display: none;
   }
