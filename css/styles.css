@@ -240,6 +240,7 @@ body {
   }
   .pic img {
     width: 100px;
+    float: none;
   }
   .hero-content {
     padding: 0;
@@ -251,6 +252,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
+      "quote"
       "pic"
       "missionbtn";
   }
