@@ -1,0 +1,40 @@
+*,
+before,
+after,
+h1 {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: contain;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgba(50, 13, 13, 0.9682466736694678) 0%,
+    rgba(143, 34, 34, 1) 84%
+  );
+}
+
+#main {
+  position: relative;
+  margin-top: 100px;
+}
+
+#navbar {
+  position: fixed;
+  overflow: hidden;
+  height: 75px;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  background: white;
+}

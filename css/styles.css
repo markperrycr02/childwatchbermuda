@@ -20,28 +20,29 @@ after {
 body {
   font-family: "Roboto Slab", serif;
   background: transparent;
-
+  height: 100%;
   /* overflow: hidden; */
-  /* background: linear-gradient(
+  background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
     rgba(143, 34, 34, 1) 84%
-  ); */
+  );
 }
 
 .container {
-  display: flex;
+  position: relative;
   width: 100%;
-  height: 90vh;
-  /* background: linear-gradient(
+  height: 100vh;
+  background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
     rgba(143, 34, 34, 1) 84%
-  ); */
+  );
 }
 
 .hero-content {
   /* overflow-x: hidden; */
+  padding-top: 100px;
 
   display: grid;
   column-gap: 3em;
@@ -50,40 +51,22 @@ body {
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
-  justify-content: center;
   margin-top: 2em;
-  margin-bottom: 2em;
-  padding-left: 4em;
-  width: 100%;
   height: 100%;
-
-  background: linear-gradient(
-    45deg,
-    rgba(50, 13, 13, 0.9682466736694678) 0%,
-    rgba(143, 34, 34, 1) 84%
-  );
-}
-
-.nav-container {
-  display: flex;
-  align-items: center;
   width: 100%;
-  background-color: #fff;
-  z-index: 99;
-  /* height: 10vh; */
 }
 
 .navbar {
-  /* overflow: hidden; */
-  position: relative;
-
+  overflow: hidden;
+  position: fixed;
   display: flex;
+  height: 10%;
   justify-content: space-between;
-
+  top: 0;
   width: 100%;
   padding-left: 3em;
   padding-right: 3em;
-
+  z-index: 99;
   background: #ffffff;
 }
 
@@ -120,7 +103,7 @@ body {
 }
 
 .pic img {
-  /* float: right; */
+  float: right;
   width: 536px;
   height: 546px;
 }
@@ -133,8 +116,6 @@ body {
 
 .mission-button {
   grid-area: missionbtn;
-  /* background-color: gray; */
-  justify-content: end;
 }
 
 .mission-button button {
