@@ -255,10 +255,11 @@ body {
     padding-top: 2em;
     /* padding-bottom: 3em; */
     row-gap: 0;
-    grid-template-rows: 100px 100px auto;
+    grid-template-rows: 100px 100px auto auto;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
+      "pic"
       "quote"
       "missionbtn";
   }
