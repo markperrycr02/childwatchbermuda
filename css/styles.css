@@ -245,7 +245,7 @@ body {
     margin: 0;
     padding-top: 2em;
     padding-bottom: 3em;
-    row-gap: 1.5em;
+    row-gap: 3em;
     grid-template-rows: 100px 100px 100px;
     grid-template-areas:
       "title"
