@@ -47,8 +47,9 @@ body {
   padding: var(--normal-padding);
   display: grid;
   column-gap: 3em;
-  row-gap: 1em;
-  grid-template-rows: auto auto auto;
+  row-gap: 5em;
+  grid-template-rows: 200px 200px 100px;
+  /* grid-template-rows: auto auto auto; */
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
