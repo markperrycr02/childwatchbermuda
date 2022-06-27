@@ -182,7 +182,7 @@ body {
   .pic img {
     width: 500px;
     height: 500px;
-    margin-left: 4em;
+    margin-left: -4em;
     /* grid-column-start: 2; */
     float: left;
   }
