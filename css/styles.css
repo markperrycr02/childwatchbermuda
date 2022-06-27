@@ -228,6 +228,7 @@ body {
 /* Mobile */
 @media (max-width: 1023px) {
   .container {
+    margin-top: 10%;
     padding-top: 0;
     text-align: center;
   }
@@ -250,7 +251,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
-    height: 60vh;
+    height: 88vh;
     /* padding-top: 100px; */
     row-gap: 4em;
   }
