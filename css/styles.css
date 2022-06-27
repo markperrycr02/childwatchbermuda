@@ -206,7 +206,7 @@ body {
 }
 
 /* Tablets */
-@media (min-width: 768px) and (max-width: 800px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     height: 90%;
     padding-left: 1.5em;
@@ -227,7 +227,7 @@ body {
 }
 
 /* Mobile */
-@media (max-width: 799px) {
+@media (max-width: 1023px) {
   .container {
     text-align: center;
     padding-top: 3em;
