@@ -44,7 +44,6 @@ body {
 }
 
 .hero-content {
-  scroll-behavior: smooth;
   padding: var(--normal-padding);
   display: grid;
   column-gap: 3em;
@@ -53,8 +52,8 @@ body {
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
+  height: 100%;
   width: 100%;
-  height: 100vh;
 }
 
 .navbar {
@@ -177,8 +176,8 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     padding-left: 1.5em;
-    padding-top: 6em;
-    row-gap: 0;
+    padding-top: 7em;
+    row-gap: 0.2em;
   }
 
   .pic img {
