@@ -48,6 +48,7 @@ body {
   display: grid;
   column-gap: 3em;
   row-gap: 1em;
+  grid-template-rows: auto;
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
