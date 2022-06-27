@@ -159,8 +159,17 @@ body {
     padding-right: 1.5em;
     margin-left: -8em;
   }
+
   .menu-items li {
     font-size: 1.4em;
+  }
+
+  .menu-logo {
+    font-size: 1.4em;
+  }
+
+  .menu-logo img {
+    width: 100;
   }
 
   .title img {
