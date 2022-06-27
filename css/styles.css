@@ -196,6 +196,7 @@ body {
   .hero-content {
     /* row-gap: 10px; */
     padding-left: 6em;
+    row-gap: 8em;
   }
 
   .navbar {
