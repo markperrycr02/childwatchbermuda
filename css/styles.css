@@ -44,6 +44,7 @@ body {
 }
 
 .hero-content {
+  scroll-behavior: smooth;
   padding: var(--normal-padding);
   display: grid;
   column-gap: 3em;
