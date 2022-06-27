@@ -241,11 +241,11 @@ body {
   }
 
   .mobile-pic {
-    display: block;
+    display: visible;
   }
 
   .normal-pic {
-    display: none;
+    display: hidden;
   }
 
   .hero-content {
