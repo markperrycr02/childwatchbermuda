@@ -240,4 +240,9 @@ body {
   .menu-logo img {
     display: none;
   }
+
+  .hero-content {
+    padding: 0;
+    margin: 0;
+  }
 }
