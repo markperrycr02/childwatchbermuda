@@ -41,7 +41,7 @@ body {
 }
 
 .hero-content {
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-top: 8em;
   padding-bottom: 8em;
   padding-left: 4em;
