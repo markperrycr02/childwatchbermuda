@@ -165,7 +165,6 @@ body {
   }
   .hero-content {
     row-gap: 1em;
-    padding: var(--large-side-padding);
   }
 
   .navbar {
