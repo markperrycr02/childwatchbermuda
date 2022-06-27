@@ -192,7 +192,7 @@ body {
     font-size: 2rem;
   }
   .hero-content {
-    row-gap: 0.5em;
+    row-gap: 10px;
     padding-left: 6em;
   }
 
