@@ -178,6 +178,7 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
   .hero-content {
     width: 100vw;
+    padding: 0;
   }
 
   .pic {
