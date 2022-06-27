@@ -240,6 +240,7 @@ body {
   }
 
   .pic {
+    display: none;
     grid-column-start: 1;
     flex: 1 0;
     grid-row: 1/1;
@@ -254,7 +255,7 @@ body {
     padding-top: 2em;
     padding-bottom: 3em;
     row-gap: 2em;
-    grid-template-rows: 150px 100px 200px 100px;
+    grid-template-rows: 150px 100px 100px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "title"
