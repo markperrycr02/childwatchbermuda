@@ -32,7 +32,7 @@ body {
 
 .container {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: linear-gradient(
     45deg,
@@ -51,7 +51,7 @@ body {
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
