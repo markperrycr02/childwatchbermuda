@@ -148,6 +148,6 @@ img {
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width: 320px) {
   .showcase-title {
-    font-size: smaller;
+    font-size: 1em;
   }
 }
