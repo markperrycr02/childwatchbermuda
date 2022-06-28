@@ -122,8 +122,11 @@ img {
   .showcase .heading {
     font-size: 20px;
   }
-
+  /* make grid 1 column; */
   .grid {
     grid-template-columns: 1fr;
+  }
+  .navbar ul {
+    display: none;
   }
 }
