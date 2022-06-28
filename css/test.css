@@ -132,6 +132,9 @@ img {
     display: none;
   }
 
+  .navbar {
+    height: 50px;
+  }
   .container {
     padding: 0 20x;
   }
