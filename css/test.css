@@ -124,9 +124,9 @@ img {
 
 /* Media queries */
 @media screen and (max-width: 375px) {
-  /* .showcase-pic {
+  .showcase-pic {
     display: none;
-  } */
+  }
 
   .grid {
     grid-template-columns: 1fr;
