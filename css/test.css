@@ -103,7 +103,7 @@ img {
   justify-items: center;
 }
 
-.showcase-title {
+.heading.showcase-title {
   color: white;
   font-size: 2rem;
 }
@@ -144,7 +144,7 @@ img {
 /* Smartphones (portrait and landscape) ----------- */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .showcase-pic {
+  .heading.showcase-pic {
     display: none;
   }
   .grid {
