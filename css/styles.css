@@ -240,14 +240,6 @@ body {
     width: 60px;
   }
 
-  .mobile-pic {
-    display: visible;
-  }
-
-  .normal-pic {
-    display: hidden;
-  }
-
   .hero-content {
     border: 3px solid green;
     border-style: dashed;
