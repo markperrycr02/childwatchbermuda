@@ -125,7 +125,8 @@ img {
 /* Media queries */
 
 /* Mobile devices */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) or (orientation: landscape),
+  (orientation: portrait) {
   .showcase-pic {
     display: none;
   }
