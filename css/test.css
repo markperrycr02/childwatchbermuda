@@ -125,12 +125,10 @@ img {
 /* Media queries */
 
 /* Mobile devices */
-@media screen and (max-width: 375px) or ((max-width: 375px ) and (orientation=landscape)) {
+@media screen and (max-width: 375px) or ((max-width: 375px ) and (orientation:landscape)) {
   .showcase-pic {
     display: none;
   }
-}
-
   .grid {
     grid-template-columns: 1fr;
   }
