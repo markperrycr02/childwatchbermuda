@@ -126,6 +126,7 @@ img {
 @media (max-width: 1023px) {
   .showcase .heading {
     font-size: 20px;
+    padding-top: 30px;
   }
   /* make grid 1 column; */
   .grid {
@@ -138,7 +139,6 @@ img {
   }
 
   p {
-    margin: 50px 0;
     font-size: 1rem;
     letter-spacing: normal;
   }
