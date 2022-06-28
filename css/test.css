@@ -125,7 +125,7 @@ img {
 
 @media (max-width: 1023px) {
   .showcase .heading {
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 30px;
   }
   /* make grid 1 column; */
