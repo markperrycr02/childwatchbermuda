@@ -245,9 +245,7 @@ body {
   }
 
   .hero-content {
-    border: 3px solid green;
-    border-style: dashed;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
