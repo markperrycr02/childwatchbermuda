@@ -163,3 +163,17 @@ body {
 .fade-in-image {
   animation: fadeIn 2s;
 }
+
+/* Large screens */
+@media only screen and (min-width: 1920px) {
+  .container {
+    padding: 0 140px;
+  }
+
+  .pic img {
+    width: 660px;
+    height: 660px;
+    padding-right: 1.5em;
+    margin-left: -8em;
+  }
+}
