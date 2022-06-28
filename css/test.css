@@ -141,4 +141,9 @@ img {
   .container {
     padding: 0 10px;
   }
+
+  .showcase-pic {
+    width: 200px;
+    height: 200px;
+  }
 }
