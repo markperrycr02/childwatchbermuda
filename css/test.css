@@ -135,7 +135,10 @@ img {
   .navbar {
     height: 50px;
   }
+  .showcase {
+    margin-top: 0;
+  }
   .container {
-    padding: 0 20x;
+    padding: 0 10px;
   }
 }
