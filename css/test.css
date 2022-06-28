@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
+
+:root {
+  --body-text-cl: #333;
+
+  --nav-text-cl: #333;
+  --nav-bg-cl: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Slab";
+  color: var(--body-text-cl);
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--nav-text-cl);
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: #c1c1c1;
+  height: 70px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1em;
+}
+
+.navbar a {
+  color: inherit;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.showcase .heading {
+  color: white;
+  font-size: 2rem;
+  padding-top: 2em;
+}
+.showcase p {
+  color: white;
+  line-height: 2rem;
+}
+.showcase {
+  margin-top: 70px;
+  background: linear-gradient(
+    45deg,
+    rgba(50, 13, 13, 0.9682466736694678) 0%,
+    rgba(143, 34, 34, 1) 84%
+  );
+  height: 100vh;
+}
