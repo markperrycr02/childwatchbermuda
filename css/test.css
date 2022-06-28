@@ -126,7 +126,13 @@ img {
   .grid {
     grid-template-columns: 1fr;
   }
+
+  /* hide menu items */
   .navbar ul {
     display: none;
+  }
+
+  .container {
+    padding: 0 20x;
   }
 }
