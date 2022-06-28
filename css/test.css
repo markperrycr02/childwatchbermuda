@@ -18,6 +18,12 @@ body {
   color: var(--body-text-cl);
   line-height: 1.6;
   overflow: auto;
+
+  background: linear-gradient(
+    45deg,
+    rgba(50, 13, 13, 0.9682466736694678) 0%,
+    rgba(143, 34, 34, 1) 84%
+  );
 }
 
 ul {
@@ -80,17 +86,11 @@ img {
 }
 
 .showcase {
-  padding-top: 75px;
+  height: 100vh;
+  padding-top: 100px;
 }
 
 .wrapper {
-  position: relative;
-  height: 100vh;
-  background: linear-gradient(
-    45deg,
-    rgba(50, 13, 13, 0.9682466736694678) 0%,
-    rgba(143, 34, 34, 1) 84%
-  );
 }
 
 .flex {
