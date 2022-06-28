@@ -281,3 +281,10 @@ body {
     border-radius: 0;
   }
 }
+
+/* Media queries */
+@media screen and (max-width: 600px) {
+  .pic {
+    display: none;
+  }
+}
