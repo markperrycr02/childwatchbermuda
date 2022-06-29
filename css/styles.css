@@ -40,7 +40,7 @@ body {
 .hero-content {
   display: grid;
   column-gap: 1em;
-  row-gap: 5em;
+  row-gap: 30px;
   padding-top: 120px;
   align-items: center;
   scroll-snap-align: start;
@@ -63,7 +63,7 @@ body {
   justify-content: space-between;
   top: 0;
   width: 100%;
-
+  display: none;
   z-index: 99;
   background: #ffffff;
 }
