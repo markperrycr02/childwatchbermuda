@@ -109,8 +109,6 @@ body {
 
 .pic {
   grid-area: pic;
-  grid-column-start: 3;
-  flex: 1 0;
   display: none;
 }
 
