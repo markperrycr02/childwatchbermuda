@@ -151,34 +151,3 @@ body {
 .fade-in-image {
   animation: fadeIn 2s;
 }
-
-/* Large screens */
-@media only screen and (min-width: 1920px) {
-  /* .container {
-    padding: 0 120px;
-  } */
-
-  .pic img {
-    width: 760px;
-    height: 760px;
-    padding-right: 1.5em;
-    margin-left: -8em;
-  }
-}
-
-.bg-w {
-  background: white;
-}
-
-.fa-chevron-down {
-  font-size: 4em;
-  color: #fff;
-
-  cursor: pointer;
-}
-
-.hamburger {
-  width: 20px;
-  line-height: 10px;
-  color: #000000;
-}
