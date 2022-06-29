@@ -36,7 +36,8 @@ body {
   padding: 0 60px;
   position: relative;
   width: 100vw;
-  height: 100%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
   background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
@@ -50,6 +51,7 @@ body {
   row-gap: 5em;
   padding-top: 120px;
   align-items: top;
+  scroll-snap-align: start;
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
