@@ -178,11 +178,10 @@ body {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) {
   .pic img {
     width: 536px;
     height: 546px;
-    padding-right: 1.5em;
   }
 }
 
@@ -191,7 +190,6 @@ body {
   .pic img {
     width: 300px;
     height: 300px;
-    padding-right: 1.5em;
   }
   .hero-content {
     grid-template-areas:
