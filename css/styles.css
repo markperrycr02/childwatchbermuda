@@ -3,7 +3,7 @@
   --navHeight: 5em;
   --secondary-color: #ffa801;
   --normal-padding: 8em 4em 8em 4em;
-  --map-size: width: 10px;
+  --title-img-size: width: 220px;
 }
 
 
@@ -100,7 +100,7 @@ body {
 }
 
 div.title > img {
-  width: 220px;
+  width: var(--title-img-size);
 }
 
 .title {
