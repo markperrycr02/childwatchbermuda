@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
 :root {
-  --primary-color: linear-gradient(
-    45deg,
-    rgba(50, 13, 13, 0.9682466736694678) 0%,
-    rgba(143, 34, 34, 1) 84%
-  );
   --navHeight: 5em;
   --secondary-color: #ffa801;
   --normal-padding: 8em 4em 8em 4em;
+}
+
+--map-size {
+  width: 600px;
 }
 
 *,
@@ -39,18 +38,15 @@ body {
 
 .hero-content {
   display: grid;
-  column-gap: 1em;
-  row-gap: 30px;
-  padding-top: 120px;
+  padding-top: 50px;
   align-items: center;
   scroll-snap-align: start;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "title"
     "quote"
     "missionbtn";
-
   width: 100vw;
   height: 100vh;
 }
@@ -63,7 +59,7 @@ body {
   justify-content: space-between;
   top: 0;
   width: 100%;
-  display: none;
+
   z-index: 99;
   background: #ffffff;
 }
@@ -101,7 +97,7 @@ body {
 }
 
 .title img {
-  width: 150px;
+  width: 300px;
 }
 .title {
   grid-area: title;
@@ -122,8 +118,7 @@ body {
 }
 
 .map {
-  width: 406px;
-  width: 440px;
+  width: var(--map-size);
 }
 
 .mission-button {
@@ -134,10 +129,7 @@ body {
 
 .quote {
   grid-area: quote;
-
   color: #fff;
-  line-height: 2em;
-  font-size: 1.6em;
   font-weight: 100;
 }
 
