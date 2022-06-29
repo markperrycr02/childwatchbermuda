@@ -180,20 +180,22 @@ body {
 /* Tablets */
 @media only screen and (min-width: 768px) {
   .pic img {
-    width: 400px;
-    height: 400px;
+    width: 370px;
+    height: 370px;
     padding-right: 1.5em;
     margin-left: -8em;
   }
   .hero-content {
     grid-template-areas:
       "title pic"
-      "quote"
+      "title pic"
       "missionbtn";
     row-gap: 3em;
+    grid-template-rows: 1fr 200px 1fr;
   }
   .quote {
     grid-column-end: 4;
+    align-content: center;
   }
   .missionbtn {
     grid-column-end: 4;
