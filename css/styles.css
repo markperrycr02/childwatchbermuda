@@ -3,10 +3,8 @@
   --navHeight: 5em;
   --secondary-color: #ffa801;
   --normal-padding: 8em 4em 8em 4em;
-  --title-img-size: width: 220px;
+  --title-img-size: 220px;
 }
-
-
 
 *,
 before,
@@ -34,7 +32,6 @@ body {
   height: 100vh;
   scroll-snap-type: y mandatory;
   -webkit-scroll-snap-type: y mandatory;
-
 }
 
 .hero-content {
@@ -136,7 +133,7 @@ div.title > img {
   font-weight: 100;
   text-align: center;
   padding: 0 20px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 /* Animation */
