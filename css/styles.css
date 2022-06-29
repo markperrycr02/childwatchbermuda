@@ -48,9 +48,9 @@ body {
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "title pic"
-    "quote quote"
-    "missionbtn missionbtn";
+    "title"
+    "quote"
+    "missionbtn";
 
   width: 100%;
   height: 100vh;
@@ -76,6 +76,7 @@ body {
 }
 
 .menu-items {
+  display: none;
   display: flex;
   align-items: center;
   list-style: none;
@@ -177,4 +178,10 @@ body {
   color: #fff;
 
   cursor: pointer;
+}
+
+.hamburger {
+  width: 20px;
+  line-height: 10px;
+  color: #000000;
 }
