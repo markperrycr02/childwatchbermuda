@@ -3,7 +3,7 @@
   --navHeight: 5em;
   --secondary-color: #ffa801;
   --normal-padding: 8em 4em 8em 4em;
-  --map-size: width: 150px;
+  --map-size: width: 10px;
 }
 
 
@@ -95,9 +95,10 @@ body {
   cursor: pointer;
 }
 
-.title > img.map {
-  width: var(--map-size);
+div.title > img {
+  height: 200px;
 }
+
 .title {
   grid-area: title;
 }
@@ -130,7 +131,7 @@ body {
   color: #fff;
   font-weight: 100;
   text-align: center;
-  padding: 0 5px;
+  padding: 0 20px;
   font-size: 1.5rem;
 }
 
