@@ -45,6 +45,7 @@ body {
   padding-top: 120px;
   align-items: top;
   scroll-snap-align: start;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "title pic pic"
     "quote pic pic"
@@ -154,9 +155,9 @@ body {
 
 /* Large screens */
 @media only screen and (min-width: 1920px) {
-  .container {
+  /* .container {
     padding: 0 120px;
-  }
+  } */
 
   .pic img {
     width: 760px;
