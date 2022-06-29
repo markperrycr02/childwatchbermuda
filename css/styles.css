@@ -123,7 +123,7 @@ div.title > img {
 .mission-button {
   grid-area: missionbtn;
 }
-.mission-button a {
+.mission-button > i {
   color: white;
   font-size: 3em;
 }
