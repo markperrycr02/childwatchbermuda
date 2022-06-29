@@ -126,6 +126,7 @@ div.title > img {
 
 .page {
   background: gray;
+  padding-top: calc(var(--nav-height) + 30px);
 }
 
 /* Animation */
