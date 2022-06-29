@@ -43,7 +43,7 @@ body {
   column-gap: 1em;
   row-gap: 5em;
   padding-top: 120px;
-  align-items: bottom;
+  /* align-items: bottom; */
   scroll-snap-align: start;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -111,7 +111,7 @@ body {
   grid-area: pic;
   grid-column-start: 3;
   flex: 1 0;
-  grid-row: 1/3;
+  display: none;
 }
 
 .pic img {
