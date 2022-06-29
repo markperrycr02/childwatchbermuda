@@ -73,7 +73,7 @@ body {
   font-size: 1.3rem;
 }
 
-.menu-items {
+ul.menu-items {
   display: none;
   align-items: center;
   list-style: none;
@@ -127,6 +127,15 @@ div.title > img {
 .page {
   background: gray;
   padding-top: calc(var(--nav-height) + 30px);
+}
+
+.hamburger-icon > div {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 5px 0;
 }
 
 /* Animation */
