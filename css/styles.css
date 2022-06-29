@@ -18,6 +18,9 @@ after {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Roboto Slab", serif;
 
@@ -34,6 +37,8 @@ body {
   padding: 0 60px;
   position: relative;
   width: 100vw;
+
+  height: 100vh;
   background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
@@ -135,17 +140,6 @@ body {
   justify-self: center;
 }
 
-/* .mission-button button {
-  font-family: "Roboto Slab", serif;
-  font-size: 1.5em;
-  background-color: var(--secondary-color);
-  border-radius: 5px;
-  border-style: none;
-  cursor: pointer;
-  justify-content: center;
-  align-items: baseline;
-} */
-
 .quote {
   grid-area: quote;
 
@@ -181,6 +175,10 @@ body {
     padding-right: 1.5em;
     margin-left: -8em;
   }
+}
+
+.bg-w {
+  background: white;
 }
 
 .fa-chevron-down {
