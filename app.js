@@ -6,5 +6,5 @@ menu_logo.addEventListener("click", function () {
 });
 
 downArrow.addEventListener("click", function () {
-  document.querySelector("#about").scrollIntoView({ behavior: "smooth" });
+  window.scrollBy({ top: -100, left: 0, behavior: "smooth" });
 });
