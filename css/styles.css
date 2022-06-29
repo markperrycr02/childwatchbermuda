@@ -137,8 +137,8 @@ div.title > img {
 }
 
 .container .page {
-  background-color: gray;
-  padding-top: 120px;
+  background: gray;
+  padding-top: 110px;
 }
 
 /* Animation */
