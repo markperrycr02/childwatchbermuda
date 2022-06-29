@@ -130,6 +130,7 @@ body {
   grid-area: quote;
   color: #fff;
   font-weight: 100;
+  text-align: center;
   padding: 0 30px;
   font-size: 1.5rem;
 }
