@@ -16,6 +16,7 @@ after {
 
 html {
   scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
 }
 body {
   font-family: "Roboto Slab", serif;
@@ -39,6 +40,7 @@ body {
   padding-top: 100px;
   justify-items: center;
   scroll-snap-align: start;
+  grid
   -webkit-scroll-snap-align: start;
   grid-template-rows: auto auto auto;
   grid-template-columns: auto;
