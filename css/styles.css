@@ -43,7 +43,7 @@ body {
   column-gap: 1em;
   row-gap: 5em;
   padding-top: 120px;
-  align-items: top;
+  align-items: bottom;
   scroll-snap-align: start;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
