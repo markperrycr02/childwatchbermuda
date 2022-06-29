@@ -177,3 +177,24 @@ body {
 
   cursor: pointer;
 }
+/* Tablets */
+@media only screen and (min-width: 768px) {
+  .pic img {
+    width: 300px;
+    height: 300px;
+    padding-right: 1.5em;
+    margin-left: -8em;
+  }
+  .hero-content {
+    grid-template-areas:
+      "title pic"
+      "quote"
+      "missionbtn";
+  }
+  .quote {
+    grid-column-end: 4;
+  }
+  .missionbtn {
+    grid-column-end: 4;
+  }
+}
