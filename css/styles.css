@@ -96,7 +96,7 @@ body {
 }
 
 .title img {
-  width: var(--map-size);
+  height: var(--map-size);
 }
 .title {
   grid-area: title;
