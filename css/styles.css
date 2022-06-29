@@ -73,7 +73,6 @@ body {
 
 .menu-items {
   display: none;
-  display: flex;
   align-items: center;
   list-style: none;
   column-gap: 2.5em;
