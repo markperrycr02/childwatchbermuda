@@ -188,7 +188,7 @@ body {
   .hero-content {
     grid-template-areas:
       "title pic"
-      "title pic"
+      "quote quote"
       "missionbtn";
     row-gap: 2.5em;
     grid-template-rows: 1fr 200px 1fr;
