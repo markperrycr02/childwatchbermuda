@@ -40,6 +40,7 @@ body {
   padding-top: 100px;
   justify-items: center;
   scroll-snap-align: start;
+
   -webkit-scroll-snap-align: start;
   grid-template-rows: auto auto auto;
   grid-template-columns: auto;
@@ -123,7 +124,7 @@ div.title > img {
 .mission-button {
   grid-area: missionbtn;
 }
-.mission-button > i {
+.mission-button a {
   color: white;
   font-size: 3em;
 }
