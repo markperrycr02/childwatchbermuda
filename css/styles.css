@@ -47,9 +47,9 @@ body {
   scroll-snap-align: start;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-    "title pic pic"
-    "quote pic pic"
-    "missionbtn pic pic";
+    "title pic"
+    "quote"
+    "missionbtn";
 
   width: 100%;
   height: 100vh;
@@ -178,7 +178,7 @@ body {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (m-width: 1440px) {
   .pic img {
     width: 536px;
     height: 546px;
@@ -196,6 +196,8 @@ body {
       "title pic"
       "quote quote"
       "missionbtn";
+
+    grid-template-rows: 1fr 200px 1fr;
   }
   .quote {
     grid-column-end: 4;
