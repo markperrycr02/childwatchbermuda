@@ -33,11 +33,10 @@ body {
 }
 
 .container {
-  scroll-behavior: smooth;
   padding: 0 60px;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(
     45deg,
     rgba(50, 13, 13, 0.9682466736694678) 0%,
@@ -55,7 +54,7 @@ body {
     "title pic pic"
     "quote pic pic"
     "missionbtn pic pic";
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: linear-gradient(
     45deg,
