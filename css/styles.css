@@ -136,6 +136,11 @@ div.title > img {
   font-size: 1.4rem;
 }
 
+.container .page {
+  background-color: gray;
+  padding-top: 120px;
+}
+
 /* Animation */
 @keyframes fadeIn {
   0% {
