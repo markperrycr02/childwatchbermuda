@@ -190,6 +190,7 @@ body {
       "title pic"
       "quote"
       "missionbtn";
+    row-gap: 3em;
   }
   .quote {
     grid-column-end: 4;
