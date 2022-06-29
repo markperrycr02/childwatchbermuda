@@ -180,8 +180,8 @@ body {
 /* Tablets */
 @media only screen and (min-width: 768px) {
   .pic img {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     padding-right: 1.5em;
     margin-left: -8em;
   }
