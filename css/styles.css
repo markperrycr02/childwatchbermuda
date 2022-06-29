@@ -46,10 +46,11 @@ body {
   align-items: bottom;
   scroll-snap-align: start;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "title pic"
-    "quote"
-    "missionbtn";
+    "quote quote"
+    "missionbtn missionbtn";
 
   width: 100%;
   height: 100vh;
