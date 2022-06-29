@@ -95,8 +95,8 @@ body {
   cursor: pointer;
 }
 
-.title img {
-  height: var(--map-size);
+.title > img.map {
+  width: var(--map-size);
 }
 .title {
   grid-area: title;
