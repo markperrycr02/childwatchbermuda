@@ -196,8 +196,6 @@ body {
       "title pic"
       "quote quote"
       "missionbtn";
-
-    grid-template-rows: 1fr 200px 1fr;
   }
   .quote {
     grid-column-end: 4;
