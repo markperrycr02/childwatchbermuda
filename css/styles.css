@@ -114,7 +114,7 @@ ul.menu-items {
   justify-content: center;
   height: 100%;
   width: 50vw;
-  background-image: url("http://localhost:5500/img/hero-bermuda-map.svg");
+  background-image: url("./img/hero-bermuda-map.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30rem;
@@ -133,7 +133,7 @@ ul.menu-items {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 20rem;
+  width: 25rem;
 }
 
 /* bottom section of Hero section */
