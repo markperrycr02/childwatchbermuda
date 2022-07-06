@@ -55,7 +55,7 @@ body {
   display: flex;
   align-items: center;
   position: fixed;
-  width: 1440px;
+
   height: var(--nav-height);
   left: 0px;
   top: 0px;
