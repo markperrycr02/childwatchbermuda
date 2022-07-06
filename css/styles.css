@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 :root {
   --navHeight: 5em;
   --secondary-color: #ffa801;
   --normal-padding: 8em 4em 8em 4em;
   --title-img-size: 220px;
-  --nav-height: 60px;
+  --nav-height: 10vh;
+  --bg-radial: radial-gradient(
+    46.73% 38.94% at 50.07% 50.07%,
+    #633e69 0%,
+    #050304 82.55%
+  );
 }
 
 *,
@@ -21,22 +27,150 @@ html {
 }
 body {
   font-family: "Roboto Slab", serif;
-  background-color: rgb(109, 42, 42);
+  /* background-color: rgb(109, 42, 42);
   background: linear-gradient(
     45deg,
-    rgba(50, 13, 13, 0.9682466736694678) 40%,
+    hsla(0, 59%, 12%, 0.968) 40%,
     rgba(143, 34, 34, 1) 84%
-  );
+  ); */
 }
 
-.container {
+/* .container {
   width: 100vw;
   height: 100vh;
   scroll-snap-type: y mandatory;
   -webkit-scroll-snap-type: y mandatory;
+} */
+
+/* Hero wrapper */
+.hero {
+  display: flex;
+  flex-direction: column;
 }
 
-.hero-content {
+/* nav bar styles */
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 1440px;
+  height: var(--nav-height);
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+  background: #ffffff;
+  border-bottom: 1px solid #000000;
+}
+
+.nav-menu-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.5em;
+  width: 100vw;
+}
+
+.menu-logo > span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Poppins, "sans-serif";
+}
+
+ul.menu-items {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  column-gap: 20px;
+}
+
+.menu-items li {
+  cursor: pointer;
+}
+
+/* top section of Hero section */
+
+.hero-top {
+  display: flex;
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  margin-top: var(--nav-height);
+  background: var(--bg-radial);
+}
+
+.hero-top-left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50vw;
+  height: 100%;
+}
+
+.hero-top-right {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 50vw;
+  background-image: url("http://localhost:5500/img/hero-bermuda-map.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30rem;
+}
+
+.hero-title-top {
+  display: flex;
+  font-family: "Reboto Slab", sans-serif;
+  font-size: 6rem;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 20rem;
+}
+
+/* bottom section of Hero section */
+.hero-bottom {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+}
+
+.hero-bottom-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100%;
+  background-color: #4c3050;
+}
+
+.hero-bottom-left p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 178%;
+  padding: 0 36px;
+}
+
+.hero-bottom-right {
+  justify-content: center;
+  align-items: flex-end;
+  width: 50vw;
+  height: 100%;
+  background-color: white;
+}
+
+/* .hero-content {
   display: grid;
   padding-top: calc(var(--nav-height) + 30px);
   justify-items: center;
@@ -51,106 +185,4 @@ body {
     "missionbtn";
   width: 100vw;
   height: 100vh;
-}
-
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  display: flex;
-  padding: 20px;
-  height: var(--nav-height);
-  justify-content: space-between;
-  top: 0;
-  width: 100%;
-
-  z-index: 99;
-  background: #ffffff;
-}
-
-.menu-logo {
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-}
-
-ul.menu-items {
-  display: none;
-  align-items: center;
-  list-style: none;
-  column-gap: 10px;
-}
-
-.menu-items li {
-  cursor: pointer;
-}
-
-div.title > img {
-  width: var(--title-img-size);
-}
-
-.title {
-  grid-area: title;
-}
-
-.pic {
-  grid-area: pic;
-  display: none;
-}
-
-.pic img {
-  float: right;
-  width: 350px;
-  height: 350px;
-}
-
-.map {
-  width: var(--map-size);
-}
-
-.mission-button {
-  grid-area: missionbtn;
-}
-.mission-button a {
-  color: white;
-  font-size: 3em;
-}
-
-.quote {
-  grid-area: quote;
-  color: #fff;
-  font-weight: 100;
-  text-align: center;
-  padding: 0 20px;
-  font-size: 1.4rem;
-}
-
-.page {
-  background: gray;
-  padding-top: calc(var(--nav-height) + 30px);
-}
-
-.hamburger-icon {
-  margin-top: -3px;
-}
-.hamburger-icon > div {
-  display: flex;
-  flex-direction: column;
-  width: 25px;
-  height: 2px;
-  background-color: black;
-  margin: 5px 0;
-}
-
-/* Animation */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.fade-in-image {
-  animation: fadeIn 2s;
-}
+} */

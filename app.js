@@ -8,3 +8,5 @@ menu_logo.addEventListener("click", function () {
 downArrow.addEventListener("click", function () {
   window.scrollBy({ top: 300, left: 0, behavior: "smooth" });
 });
+
+const toggleHamburger = () => {};
