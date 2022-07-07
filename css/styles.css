@@ -180,3 +180,12 @@ ul.menu-items {
   height: 100%;
   color: white;
 }
+
+/* Media Queries */
+
+/* Large Desktops */
+@media screen and (min-width: 1920px) {
+  .hero-image {
+    width: 40rem;
+  }
+}
