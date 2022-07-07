@@ -133,8 +133,8 @@ ul.menu-items {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  /* width: 50rem; */
-  width: 40rem;
+  /* width: 50rem;  for screen of width 1920px*/
+  width: 40rem; /*  1440px */
 }
 
 /* bottom section of Hero section */

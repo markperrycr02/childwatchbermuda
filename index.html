@@ -28,7 +28,7 @@
     <div class="hero">
       <div class="hero-top">
         <div class="hero-top-left">
-          <img class="hero-image" src="./img/hero-image.svg" alt="" />
+          <img id="img" class="hero-image" src="./img/hero-image.svg" alt="" />
         </div>
         <div class="hero-top-right">
           <div class="hero-title-top">ChildWatch<br />Bermuda</div>
@@ -44,7 +44,8 @@
         </div>
         <div class="hero-bottom-right"></div>
       <script>
-        alert(screen.width)
+        const img = document.querySelector("img");
+        img.addEventListener("click", () => { alert(screen.width)})
       </script>
     </div>
   </body>
