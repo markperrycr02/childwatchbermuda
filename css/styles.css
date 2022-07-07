@@ -113,6 +113,7 @@ ul.menu-items {
   background-position: center;
   /* background-size: 30rem; */
   background-size: 35rem;
+  border: 2px solid orange;
 }
 
 .hero-title-top {
