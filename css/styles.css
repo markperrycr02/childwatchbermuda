@@ -188,4 +188,23 @@ ul.menu-items {
   .hero-image {
     width: 40rem;
   }
+
+  .hero-title-top {
+    font-size: 8rem;
+  }
+
+  .hero-top-left {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 100%;
+  }
+
+  .hero-top-right {
+    background-size: 30rem;
+  }
+
+  .hero-title-top {
+    font-size: 8rem;
+  }
 }
