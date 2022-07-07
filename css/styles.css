@@ -7,9 +7,9 @@
   --title-img-size: 220px;
   --nav-height: 10vh;
   --bg-radial: radial-gradient(
-    46.73% 38.94% at 50.07% 50.07%,
+    90.59% 108.94% at 91.63% 50%,
     #633e69 0%,
-    #050304 82.55%
+    #050304 97.49%
   );
 }
 
@@ -156,8 +156,8 @@ ul.menu-items {
 
 .hero-bottom-left p.text-header {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  justify-content: center;
+  border-bottom: 1px solid red;
   width: 100%;
   background-color: #060405;
   padding: 1rem;
