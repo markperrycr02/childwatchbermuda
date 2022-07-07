@@ -186,5 +186,6 @@ ul.menu-items {
   align-items: flex-end;
   width: 40vw;
   height: 100%;
-  background-color: rgb(255, 255, 255);
+  color: white;
+  /* background-color: rgb(255, 255, 255); */
 }
