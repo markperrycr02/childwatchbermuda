@@ -113,7 +113,6 @@ ul.menu-items {
   background-position: center;
   /* background-size: 30rem; */
   background-size: 35rem;
-  border: 2px solid orange;
 }
 
 .hero-title-top {
@@ -130,7 +129,7 @@ ul.menu-items {
   display: flex;
   /* justify-content: center; */
   /* align-items: flex-end; */
-  border: 2px solid blue;
+
   width: 50rem; /*for screen of width 1920px */
   /* width: 33rem;  1440px */
   height: 100%;
@@ -166,7 +165,6 @@ ul.menu-items {
   padding: 0.05rem 0;
   color: white;
   font-family: "Poppins", sans-serif;
-  border: 2px solid red;
 }
 
 .hero-bottom-left p.text-body {
