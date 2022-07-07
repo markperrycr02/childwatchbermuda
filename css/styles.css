@@ -186,26 +186,15 @@ ul.menu-items {
 /* Large Desktops */
 @media screen and (min-width: 1920px) {
   .hero-image {
-    width: 40rem;
-  }
-
-  .hero-title-top {
-    font-size: 8rem;
-  }
-
-  .hero-top-left {
-    display: flex;
-    justify-content: center;
-    width: 50vw;
-    height: 100%;
+    width: 38rem;
   }
 
   /* Bermuda Map */
   .hero-top-right {
-    background-size: 35.5rem;
+    background-size: 34rem;
   }
 
   .hero-title-top {
-    font-size: 7.9rem;
+    font-size: 7.5rem;
   }
 }
