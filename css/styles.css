@@ -111,13 +111,15 @@ ul.menu-items {
   /* background-image: url("http://localhost:5500/img/hero-bermuda-map.svg"); */
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 30rem;
+  /* background-size: 30rem; */
+  background-size: 40rem;
 }
 
 .hero-title-top {
   display: flex;
   font-family: "Reboto Slab", sans-serif;
-  font-size: 6rem;
+  /* font-size: 6rem; */
+  font-size: 10rem;
   color: white;
   align-items: center;
   text-align: center;
@@ -128,8 +130,8 @@ ul.menu-items {
   /* justify-content: center; */
   /* align-items: flex-end; */
   border: 2px solid blue;
-  /* width: 50rem;  for screen of width 1920px*/
-  width: 50rem; /*  1440px */
+  width: 50rem; /*for screen of width 1920px */
+  /* width: 33rem;  1440px */
   height: 100%;
 }
 
