@@ -80,6 +80,7 @@ ul.menu-items {
   flex-direction: column;
   padding-top: 10vh;
   overflow: hidden;
+  background: var(--bg-radial);
 }
 
 /* top section of Hero section */
@@ -90,7 +91,7 @@ ul.menu-items {
   height: 45vh;
   width: 100vw;
 
-  background: var(--bg-radial);
+  /* background: var(--bg-radial); */
   /* border: 2px solid blue; */
 }
 
@@ -141,7 +142,7 @@ ul.menu-items {
   height: 45vh;
   width: 100%;
   /* align-items: center; */
-  background: var(--bg-radial);
+  /* background: var(--bg-radial); */
   /* border: 2px solid green; */
 }
 
