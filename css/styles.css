@@ -101,7 +101,7 @@ ul.menu-items {
   align-items: center;
   height: 100%;
   width: 50vw;
-  background-image: url("http://localhost:5500/img/Bermuda.svg");
+  background-image: url("https://cwbermuda.netlify.com/img/Bermuda.svg");
   /* background-image: url("http://localhost:5500/img/hero-bermuda-map.svg"); */
   background-repeat: no-repeat;
   background-position: center;
