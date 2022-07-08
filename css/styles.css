@@ -103,8 +103,7 @@ ul.menu-items {
   width: 50vw;
   background-image: url("https://cwbermuda.netlify.com/img/hero-bermuda-map.svg");
   /* background-image: url("http://localhost:5500/img/hero-bermuda-map.svg"); */
-  background-repeat: no-repeat;
-  background-position: center;
+
   /* background-size: 30rem; */
   background-size: 28rem;
 }
@@ -133,6 +132,10 @@ ul.menu-items {
   display: flex;
   height: 45vh;
   width: 100%;
+  background-image: url("https://cwbermuda.netlify.com/img/yellow-blob.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 800px;
 }
 
 .hero-bottom-left {
