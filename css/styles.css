@@ -213,6 +213,7 @@ ul.menu-items {
     height: 45vh;
   }
   .hero-bottom {
+    flex-direction: column;
     height: 45vh;
   }
   .hero-image {
