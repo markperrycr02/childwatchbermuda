@@ -227,6 +227,7 @@ ul.menu-items {
   }
 
   .hero-bottom-right {
+    flex-direction: column;
     width: 100%;
     align-items: center;
   }
@@ -248,7 +249,7 @@ ul.menu-items {
     background-size: 15.8rem;
   }
   #learn-more-btn {
-    width: 3rem;
+    width: 10rem;
     height: 50px;
     font-size: 1.8rem;
   }
