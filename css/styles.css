@@ -209,7 +209,7 @@ ul.menu-items {
 
 /* Mobile */
 
-@media screen and (max-width: 320px) {
+@media screen and (in-width: 375px) {
   .hero-top {
     display: none;
   }
