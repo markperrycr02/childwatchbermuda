@@ -220,10 +220,11 @@ ul.menu-items {
   }
   .hero-bottom p.text-header {
     font-size: 1.5rem;
+    padding-top: 0.5rem;
   }
 
   .hero-bottom p.text-body {
-    background-size: 14em;
+    background-size: 14rem;
   }
 
   .hero-bottom-left {
