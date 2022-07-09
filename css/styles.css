@@ -216,6 +216,9 @@ ul.menu-items {
   .hero-image {
     width: 15rem;
   }
+  .hero-top-left {
+    width: 100vw;
+  }
 }
 
 /* Tablet */
