@@ -213,6 +213,10 @@ ul.menu-items {
     width: 38rem;
   }
 
+  .hero-bottom {
+    height: 40vh;
+  }
+
   .hero-top {
     height: 50vh;
   }
