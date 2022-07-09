@@ -216,7 +216,7 @@ ul.menu-items {
   }
   .hero-bottom {
     flex-direction: column;
-    display: none;
+    /* display: none; */
   }
   .hero-bottom-left {
     width: 100%;
