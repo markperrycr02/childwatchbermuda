@@ -215,6 +215,11 @@ ul.menu-items {
   /* Bermuda Map */
   .hero-top-right {
     background-size: 25rem;
+    width: 45vw;
+  }
+
+  .hero-top-left {
+    width: 50vw;
   }
 }
 
