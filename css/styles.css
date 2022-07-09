@@ -210,7 +210,7 @@ ul.menu-items {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hero-bottom p.text-body {
-    background-size: 10rem;
+    background-size: 18rem;
   }
 
   #learn-more-btn {
