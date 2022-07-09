@@ -210,11 +210,11 @@ ul.menu-items {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hero-top {
-    height: 40vh;
+    height: 35vh;
   }
   .hero-bottom {
     flex-direction: column;
-    height: 60vh;
+    height: 65vh;
   }
   .hero-bottom-left {
     width: 100%;
