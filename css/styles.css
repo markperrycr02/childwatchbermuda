@@ -211,7 +211,7 @@ ul.menu-items {
 
 @media only screen and (max-width: 320px) {
   .hero-top {
-    flex-direction: column;
+    display: none;
   }
 }
 
