@@ -213,6 +213,7 @@ ul.menu-items {
     background-size: 18rem;
     padding-top: 3rem;
     padding-bottom: 0;
+    height: auto;
   }
 
   #learn-more-btn {
