@@ -216,7 +216,7 @@ ul.menu-items {
   .hero-bottom {
     flex-direction: column;
   }
-  .hero-left {
+  .hero-bottom-left {
     width: 100%;
   }
   .hero-title-top {
