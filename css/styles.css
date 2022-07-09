@@ -33,7 +33,7 @@ body {
   background: var(--bg-radial);
 }
 .main-wrapper {
-  padding: 0 70px;
+  padding: 0 0;
 }
 /* nav bar styles */
 .navbar {
@@ -91,7 +91,6 @@ ul.menu-items {
   display: flex;
   height: 45vh;
   width: 100vw;
-  justify-content: center;
 }
 
 .hero-top-left {
@@ -139,7 +138,6 @@ ul.menu-items {
   display: flex;
   height: 45vh;
   width: 100%;
-  justify-content: center;
   background-repeat: no-repeat;
   background-position: top right;
   /* background-size: 60px; */
