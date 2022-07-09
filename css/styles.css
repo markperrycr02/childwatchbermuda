@@ -217,4 +217,7 @@ ul.menu-items {
   .hero-title-top {
     font-size: 7.5rem;
   }
+  .hero-bottom p.text-body {
+    line-height: 200%;
+  }
 }
