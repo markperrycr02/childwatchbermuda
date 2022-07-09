@@ -213,6 +213,9 @@ ul.menu-items {
   .hero-top {
     flex-direction: column;
   }
+  .hero-bottom {
+    flex-direction: column;
+  }
   .hero-title-top {
     font-size: 3rem;
   }
