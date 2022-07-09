@@ -211,7 +211,7 @@ ul.menu-items {
 
 @media screen and (max-width: 375px) {
   .hero-top {
-    display: none;
+    flex-direction: column;
   }
 }
 
