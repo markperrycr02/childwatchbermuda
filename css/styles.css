@@ -209,7 +209,7 @@ ul.menu-items {
 
 /* Mobile */
 
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .hero-top {
     display: none;
   }
@@ -217,7 +217,7 @@ ul.menu-items {
 
 /* Tablet */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hero-bottom p.text-body {
     background-size: 18rem;
     padding-top: 3rem;
