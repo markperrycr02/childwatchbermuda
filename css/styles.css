@@ -230,6 +230,8 @@ ul.menu-items {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .hero-title-top {
     font-size: 3rem;
@@ -249,7 +251,7 @@ ul.menu-items {
     background-size: 15.8rem;
   }
   #learn-more-btn {
-    width: 10rem;
+    width: 15rem;
     height: 50px;
     font-size: 1.8rem;
   }
