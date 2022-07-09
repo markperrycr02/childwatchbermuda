@@ -235,6 +235,11 @@ ul.menu-items {
     width: 100%;
     align-items: center;
   }
+
+  .hero-bottom-right {
+    width: 100%;
+    align-items: center;
+  }
   .hero-title-top {
     font-size: 3rem;
   }
