@@ -213,6 +213,9 @@ ul.menu-items {
   .hero-top {
     flex-direction: column;
   }
+  .hero-title-top {
+    font-size: 3rem;
+  }
   .hero-image {
     width: 20rem;
   }
@@ -221,7 +224,6 @@ ul.menu-items {
   }
   .hero-top-right {
     background-size: 10rem;
-    width: 100vw;
   }
 }
 
