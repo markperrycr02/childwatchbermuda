@@ -212,6 +212,10 @@ ul.menu-items {
   .hero-image {
     width: 25rem;
   }
+  /* Bermuda Map */
+  .hero-top-right {
+    background-size: 35rem;
+  }
 }
 
 /* Large Desktops */
