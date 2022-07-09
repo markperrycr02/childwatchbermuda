@@ -218,6 +218,7 @@ ul.menu-items {
   }
   .hero-bottom-left {
     width: 100%;
+    justify-content: center;
   }
   .hero-title-top {
     font-size: 3rem;
