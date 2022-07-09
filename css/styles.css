@@ -213,6 +213,9 @@ ul.menu-items {
   .hero-top {
     flex-direction: column;
   }
+  .hero-image {
+    width: 15rem;
+  }
 }
 
 /* Tablet */
