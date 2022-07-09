@@ -228,9 +228,10 @@ ul.menu-items {
   }
   .hero-top-left {
     width: 100vw;
+    padding-bottom: 20px;
   }
   .hero-top-right {
-    background-size: 15rem;
+    background-size: 18rem;
     align-items: center;
     width: 100%;
   }
