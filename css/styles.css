@@ -219,6 +219,10 @@ ul.menu-items {
   .hero-top-left {
     width: 100vw;
   }
+  .hero-top-right {
+    background-size: 10rem;
+    width: 100vw;
+  }
 }
 
 /* Tablet */
