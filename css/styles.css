@@ -212,6 +212,7 @@ ul.menu-items {
   .hero-bottom p.text-body {
     background-size: 18rem;
     padding-top: 3rem;
+    padding-bottom: 0;
   }
 
   #learn-more-btn {
