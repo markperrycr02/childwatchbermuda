@@ -213,6 +213,9 @@ ul.menu-items {
     width: 38rem;
   }
 
+  .hero-top {
+    height: 50vh;
+  }
   /* Bermuda Map */
   .hero-top-right {
     background-size: 40rem;
