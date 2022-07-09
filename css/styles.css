@@ -232,6 +232,7 @@ ul.menu-items {
   .hero-top-right {
     background-size: 15rem;
     align-items: center;
+    width: 100%;
   }
 }
 
