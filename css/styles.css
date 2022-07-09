@@ -138,6 +138,7 @@ ul.menu-items {
   display: flex;
   height: 45vh;
   width: 100%;
+  justify-content: center;
   background-repeat: no-repeat;
   background-position: top right;
   /* background-size: 60px; */
