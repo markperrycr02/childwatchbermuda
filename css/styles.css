@@ -216,6 +216,9 @@ ul.menu-items {
   .hero-bottom {
     flex-direction: column;
   }
+  .hero-left {
+    width: 100%;
+  }
   .hero-title-top {
     font-size: 3rem;
   }
