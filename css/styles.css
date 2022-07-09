@@ -209,6 +209,12 @@ ul.menu-items {
 /* Tablet */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #learn-more-btn {
+    justify-content: center;
+    width: 250px;
+    height: 108px;
+  }
+
   .hero-top {
     height: 40vh;
   }
