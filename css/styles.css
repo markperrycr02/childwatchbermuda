@@ -85,13 +85,14 @@ ul.menu-items {
   display: flex;
   height: 45vh;
   width: 100vw;
+
   /* border-bottom: 4px solid #212122; */
 }
 
 .hero-top-left {
   display: flex;
   justify-content: center;
-  width: 50vw;
+  width: 55vw;
   height: 100%;
 }
 
@@ -100,7 +101,7 @@ ul.menu-items {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 50vw;
+  width: 45vw;
   background-image: url("https://cwbermuda.netlify.com/img/Bermuda.svg");
   /* background-image: url("http://localhost:5500/img/hero-bermuda-map.svg"); */
   background-repeat: no-repeat;
@@ -142,7 +143,7 @@ ul.menu-items {
 .hero-bottom-left {
   display: flex;
   flex-direction: column;
-  width: 60vw;
+  width: 55vw;
   height: 100%;
   color: white;
 }
@@ -178,7 +179,7 @@ ul.menu-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40vw;
+  width: 45vw;
   height: 100%;
   color: white;
 }
