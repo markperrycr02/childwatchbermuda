@@ -212,6 +212,7 @@ ul.menu-items {
 @media screen and (max-width: 375px) {
   .hero-top {
     flex-direction: column;
+    height: auto;
   }
   .hero-bottom {
     flex-direction: column;
