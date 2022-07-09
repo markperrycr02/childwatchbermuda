@@ -210,7 +210,7 @@ ul.menu-items {
 /* Large Desktops */
 @media screen and (min-width: 1920px) {
   .hero-image {
-    width: 38rem;
+    width: 40rem;
   }
 
   .hero-bottom {
