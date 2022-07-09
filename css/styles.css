@@ -216,6 +216,9 @@ ul.menu-items {
     flex-direction: column;
     height: 45vh;
   }
+  .hero-bottom-left {
+    width: 100%;
+  }
   .hero-image {
     width: 25rem;
   }
