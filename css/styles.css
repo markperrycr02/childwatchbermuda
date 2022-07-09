@@ -210,17 +210,17 @@ ul.menu-items {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hero-top {
-    height: 25vh;
+    height: 40vh;
   }
   .hero-bottom {
     flex-direction: column;
-    height: 85vh;
+    height: 60vh;
   }
   .hero-bottom-left {
     width: 100%;
   }
   .hero-image {
-    width: 30rem;
+    width: 25rem;
   }
   /* Bermuda Map */
   .hero-top-right {
