@@ -206,6 +206,13 @@ ul.menu-items {
 }
 
 /* Media Queries */
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .hero-image {
+    width: 20rem;
+  }
+}
 
 /* Large Desktops */
 @media screen and (min-width: 1920px) {
@@ -230,13 +237,5 @@ ul.menu-items {
   }
   .hero-bottom p.text-body {
     line-height: 250%;
-  }
-}
-
-/* Tablet */
-
-@media only screen and (max-width: 768px) {
-  .hero-image {
-    width: 20rem;
   }
 }
