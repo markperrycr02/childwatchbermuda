@@ -210,10 +210,10 @@ ul.menu-items {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hero-top {
-    height: 35vh;
+    height: 45vh;
   }
   .hero-bottom {
-    height: 65vh;
+    height: 45vh;
   }
   .hero-image {
     width: 25rem;
