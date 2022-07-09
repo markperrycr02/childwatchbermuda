@@ -225,6 +225,9 @@ ul.menu-items {
   .hero-bottom-left {
     width: 100%;
   }
+  .hero-bottom-right {
+    width: 100%;
+  }
   .hero-image {
     width: 25rem;
   }
