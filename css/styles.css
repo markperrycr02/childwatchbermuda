@@ -173,6 +173,9 @@ ul.menu-items {
   color: black;
 }
 
+.hamburger {
+  display: none;
+}
 .hero-bottom-right {
   display: flex;
   justify-content: center;

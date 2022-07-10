@@ -12,7 +12,7 @@
     />
   </head>
   <body>
-    <div style="height:100vh">
+    <div style="height: 100vh">
       <div class="navbar">
         <div class="nav-menu-wrapper">
           <div class="menu-logo">
@@ -24,44 +24,53 @@
             <li class="menu-item">Our Mission</li>
             <li class="menu-item">Research</li>
           </ul>
-          <img style="display:none" class="hamburger" src="./img/hamburger.svg" alt="">
-
+          <div class="hamburger">
+          <img src="./img/hamburger.svg" alt="" />
         </div>
       </div>
-    
-      <div class="hero">
-        <div id="hero-top" class="hero-top">
-          <div class="hero-top-left">
-            <img id="hero-img" class="hero-image" src="./img/hero-image.svg" alt="" />
-          </div>
+    </div>
 
-          <div class="hero-top-right">
-            <div class="hero-title-top">
-              ChildWatch<br>
-              Bermuda
-            </div>
-          </div>
+    <div class="hero">
+      <div id="hero-top" class="hero-top">
+        <div class="hero-top-left">
+          <img
+            id="hero-img"
+            class="hero-image"
+            src="./img/hero-image.svg"
+            alt=""
+          />
         </div>
-  
-        <div class="hero-bottom">
-          <div class="hero-bottom-left">
-            <p class="text-header">
-              Who and What We Are
-            </p>
-              <p class="text-body">          
-                ChildWatch is an action group of concerned parents, initially fathers. Our aim is to effect change in the laws and society's views on the rights of single and divorced fathers, to actively share in the day-to-day rearing of their children and, to even be the primary cargiver.
-              </p>    
-          </div>
-          <div class="hero-bottom-right">
-            <button id="learn-more-btn">Learn More</button>
+
+        <div class="hero-top-right">
+          <div class="hero-title-top">
+            ChildWatch<br />
+            Bermuda
           </div>
         </div>
       </div>
 
-        <script>
-        const img = document.querySelector("#hero-img");
-        img.addEventListener("click", () => { alert(screen.width + " x "  + screen.height)});
-      </script>
-  
+      <div class="hero-bottom">
+        <div class="hero-bottom-left">
+          <p class="text-header">Who and What We Are</p>
+          <p class="text-body">
+            ChildWatch is an action group of concerned parents, initially
+            fathers. Our aim is to effect change in the laws and society's views
+            on the rights of single and divorced fathers, to actively share in
+            the day-to-day rearing of their children and, to even be the primary
+            cargiver.
+          </p>
+        </div>
+        <div class="hero-bottom-right">
+          <button id="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const img = document.querySelector("#hero-img");
+      img.addEventListener("click", () => {
+        alert(screen.width + " x " + screen.height);
+      });
+    </script>
   </body>
 </html>
