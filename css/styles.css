@@ -88,6 +88,7 @@ ul.menu-items {
   display: flex;
   height: 45vh;
   width: 100vw;
+  padding-bottom: 20px;
 }
 
 .hero-top-left {
