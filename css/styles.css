@@ -283,7 +283,8 @@ ul.menu-items {
 
 /* Tablet */
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-device-width: 701px) and (max-device-width: 1200px) {
+  /* @media screen and (min-device-width: 800px) and (max-device-width: 1024px) { */
   .hero-bottom p.text-body {
     background-size: 18rem;
     padding-top: 3rem;
