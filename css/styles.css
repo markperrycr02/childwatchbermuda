@@ -203,14 +203,13 @@ ul.menu-items {
 /* Media Queries */
 
 /* Mobile */
-
 @media screen and (max-width: 700px) {
-  .menu-items {
-    visibility: hidden;
+  ul.menu-items {
+    display: none;
   }
 
-  #hamburger {
-    visibility: visible;
+  .hamburger {
+    display: block;
   }
 
   .hero-top {
@@ -295,13 +294,15 @@ ul.menu-items {
     height: 75px;
   }
 
-  .menu-items {
-    visibility: hidden;
+  ul.menu-items {
+    display: none;
+    /* background-color: red; */
   }
 
-  #hamburger {
-    visibility: visible;
+  .hamburger {
+    display: block;
   }
+
   .hero-top {
     height: 40vh;
   }
@@ -334,6 +335,13 @@ ul.menu-items {
 
 /* Large Desktops */
 @media screen and (min-width: 1920px) {
+  ul.menu-items {
+    display: flex;
+  }
+  .nav-menu-wrapper img.hamburger {
+    display: none;
+  }
+
   .hero-image {
     width: 45rem;
   }
