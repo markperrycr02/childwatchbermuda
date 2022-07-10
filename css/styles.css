@@ -162,10 +162,10 @@ ul.menu-items {
   width: 100%;
   height: 100%;
   padding-top: 4rem;
-  background-image: url("https://cwbermuda.netlify.com/img/squiggle.svg");
+  /* background-image: url("https://cwbermuda.netlify.com/img/squiggle.svg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 19rem;
+  background-size: 19rem; */
   color: #fff;
 }
 
@@ -209,18 +209,22 @@ ul.menu-items {
     flex-direction: column;
     width: 100%;
     height: 100%;
+    background-color: white;
   }
   .hero-bottom p.text-header {
     font-size: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 0.5em;
+    color: black;
   }
 
   .hero-bottom p.text-body {
     background-size: 14rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     height: auto;
-    padding-top: 2.9em;
+    padding-top: 0;
+    color: black;
+    padding: 0 10px 20px 10px;
   }
 
   .hero-bottom-left {
