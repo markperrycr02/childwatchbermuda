@@ -327,11 +327,11 @@ ul.menu-items {
   }
   /* Bermuda Map */
   .hero-top-right {
-    background-size: 40rem;
+    background-size: 35rem;
   }
 
   .hero-title-top {
-    font-size: 7.5rem;
+    /* font-size: 7.5rem; */
   }
   .hero-bottom p.text-body {
     line-height: 250%;
