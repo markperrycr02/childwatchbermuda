@@ -204,6 +204,7 @@ ul.menu-items {
   .hero-top {
     flex-direction: column;
     height: auto;
+    padding-bottom: 20px;
   }
   .hero-bottom {
     flex-direction: column;
