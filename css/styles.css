@@ -237,6 +237,8 @@ ul.menu-items {
 
   .hero-title-top {
     font-size: 3.5rem;
+    justify-content: center;
+    width: 100%;
   }
   .hero-image {
     width: 20rem;
@@ -249,7 +251,6 @@ ul.menu-items {
     align-items: center;
     width: 100%;
     height: 100%;
-    /* margin-top: -39px; */
     background-size: 100% 100%;
   }
 
