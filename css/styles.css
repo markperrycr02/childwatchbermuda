@@ -212,6 +212,7 @@ ul.menu-items {
   #hamburger {
     visibility: visible;
   }
+
   .hero-top {
     flex-direction: column;
     height: auto;
