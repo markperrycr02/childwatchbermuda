@@ -307,6 +307,10 @@ ul.menu-items {
     background-size: 21rem;
     width: 45vw;
   }
+
+  .hero-title-top {
+    font-size: 3.2rem;
+  }
   .hero-top-left {
     width: 50vw;
   }
