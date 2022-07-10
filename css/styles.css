@@ -200,7 +200,7 @@ ul.menu-items {
 
 /* Mobile */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
   .hero-top {
     flex-direction: column;
     height: auto;
@@ -252,9 +252,9 @@ ul.menu-items {
     background-size: 15.8rem;
   }
   #learn-more-btn {
-    width: 15rem;
+    width: 10rem;
     height: 50px;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 }
 
