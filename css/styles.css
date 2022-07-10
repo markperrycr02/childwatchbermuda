@@ -133,6 +133,7 @@ ul.menu-items {
   width: 100%;
   background-repeat: no-repeat;
   background-position: top right;
+  background-color: white;
 }
 
 .hero-bottom-left {
@@ -141,6 +142,7 @@ ul.menu-items {
   width: 55vw;
   height: 100%;
   color: white;
+  background-color: white;
 }
 
 .hero-bottom p.text-header {
@@ -149,7 +151,7 @@ ul.menu-items {
   font-size: 2.2rem;
   padding-top: 1rem;
   width: 100%;
-  color: white;
+  color: black;
   font-family: "Poppins", sans-serif;
 }
 
@@ -161,12 +163,12 @@ ul.menu-items {
   padding: 36px;
   width: 100%;
   height: 100%;
-  padding-top: 4rem;
+  padding-top: 1rem;
   /* background-image: url("https://cwbermuda.netlify.com/img/squiggle.svg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 19rem; */
-  color: #fff;
+  color: black;
 }
 
 .hero-bottom-right {
