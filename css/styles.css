@@ -205,6 +205,13 @@ ul.menu-items {
 /* Mobile */
 
 @media screen and (max-width: 700px) {
+  .menu-items {
+    visibility: hidden;
+  }
+
+  #hamburger {
+    visibility: visible;
+  }
   .hero-top {
     flex-direction: column;
     height: auto;
@@ -216,6 +223,7 @@ ul.menu-items {
     height: 100%;
     background-color: white;
   }
+
   .hero-bottom p.text-header {
     font-size: 1.5rem;
 
@@ -286,6 +294,13 @@ ul.menu-items {
     height: 75px;
   }
 
+  .menu-items {
+    visibility: hidden;
+  }
+
+  #hamburger {
+    visibility: visible;
+  }
   .hero-top {
     height: 40vh;
   }
@@ -309,7 +324,7 @@ ul.menu-items {
   }
 
   .hero-title-top {
-    font-size: 4rem;
+    font-size: 4.3rem;
   }
   .hero-top-left {
     width: 50vw;
