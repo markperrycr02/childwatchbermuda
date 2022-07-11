@@ -206,7 +206,7 @@ ul.menu-items {
   left: 0px;
   opacity: 0.9;
   background-color: black;
-  max-height: 100vh;
+  max-height: vh;
   width: 100vw;
   transition: max-height 1s ease-out;
   -webkit-transition: max-height 1s;
