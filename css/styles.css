@@ -206,7 +206,7 @@ ul.menu-items {
   left: 0px;
   opacity: 0.9;
   background-color: black;
-  height: 0;
+  height: 100%;
   width: 100vw;
   transition: height 3s;
   -webkit-transition: height 3s;
