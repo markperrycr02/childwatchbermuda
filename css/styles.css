@@ -339,7 +339,7 @@ ul.menu-items {
   /* @media screen and (min-device-width: 800px) and (max-device-width: 1024px) { */
 
   #learn-more-btn:hover {
-    background-color: none;
+    background-color: transparent;
   }
 
   .hero-bottom p.text-body {
