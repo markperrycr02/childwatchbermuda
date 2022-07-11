@@ -276,12 +276,12 @@ ul.menu-items {
   .hero-top-left {
     width: 50vw;
     /* padding-bottom: 20px; */
-    height: auto;
+    height: 100%;
   }
   .hero-top-right {
     align-items: center;
     width: 50vw;
-    height: auto;
+    height: 100%;
     background-size: 88% 88%;
   }
 
