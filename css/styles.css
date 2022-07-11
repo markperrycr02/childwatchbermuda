@@ -358,14 +358,14 @@ ul.menu-items {
   .hamburger {
     display: block;
   }
-  /* 
+
   .hero-top {
     height: 40vh;
   }
-*/
+
   .hero-bottom {
     flex-direction: column;
-    /* height: 60vh; */
+    height: 60vh;
   }
 
   .hero-bottom-left {
