@@ -213,8 +213,8 @@ ul.menu-items {
   left: 0px;
   opacity: 0.9;
   background-color: black;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   transition: height 2s ease-out;
   color: white;
   z-index: 10;
