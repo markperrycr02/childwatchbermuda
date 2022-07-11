@@ -315,7 +315,7 @@ ul.menu-items {
   .hero-bottom-left {
     width: 100%;
     align-items: center;
-    height: 50%;
+    /* height: 50%; */
     width: 100vw;
   }
 
