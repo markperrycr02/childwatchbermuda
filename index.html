@@ -81,12 +81,15 @@
       const hamburger = document.querySelector("#hamburg");
       const menu_close = document.querySelector("#menu-close-btn");
       const overlay  = document.querySelector("#overlay");
+      const learmore = document.querySelector("#learn-more-btn")
 
 
       hamburg.addEventListener("click", () => {
         overlay.style.display = "flex";
         // overlay.style.maxHeight = "100%";
       })
+
+      learmore.addEventListener("click", () => {alert('Learn More')})
 
        menu_close.addEventListener("click", () => {
         overlay.style.display = "none";

@@ -199,6 +199,7 @@ ul.menu-items {
 }
 
 .mobile-overlay {
+  overflow: hidden;
   display: none;
   flex-direction: column;
   position: fixed;
