@@ -338,8 +338,10 @@ ul.menu-items {
 @media screen and (min-device-width: 701px) and (max-device-width: 1200px) {
   /* @media screen and (min-device-width: 800px) and (max-device-width: 1024px) { */
 
-    #learn-more-btn:not():hover;
-    
+  #learn-more-btn:hover {
+    background-color: none;
+  }
+
   .hero-bottom p.text-body {
     background-size: 18rem;
     padding-top: 1rem;
