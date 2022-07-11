@@ -201,7 +201,7 @@ ul.menu-items {
 .mobile-overlay {
   display: none;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   opacity: 0.9;
