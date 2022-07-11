@@ -298,7 +298,6 @@ ul.menu-items {
   }
 
   .hero-bottom-right {
-    flex-direction: column;
     width: 100vw;
     align-items: center;
     /* padding-bottom: rem; */
