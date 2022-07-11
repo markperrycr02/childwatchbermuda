@@ -264,6 +264,28 @@ ul.menu-items {
     padding-bottom: 5px;
     height: 45vh;
   }
+
+  .hero-title-top {
+    font-size: 3.3rem;
+    justify-content: center;
+    width: 100%;
+  }
+  .hero-image {
+    width: 15rem;
+  }
+  .hero-top-left {
+    width: 50vw;
+    /* padding-bottom: 20px; */
+    width: 100%;
+    height: 50%;
+  }
+  .hero-top-right {
+    align-items: center;
+    width: 50vw;
+    height: 50%;
+    background-size: 100% 88%;
+  }
+
   .hero-bottom {
     flex-direction: column;
     width: 100%;
@@ -300,27 +322,6 @@ ul.menu-items {
     align-items: end;
     padding-bottom: 1rem;
     height: 50%;
-  }
-
-  .hero-title-top {
-    font-size: 3.3rem;
-    justify-content: center;
-    width: 100%;
-  }
-  .hero-image {
-    width: 15rem;
-  }
-  .hero-top-left {
-    width: 100%;
-    /* padding-bottom: 20px; */
-    width: 100%;
-    height: 50%;
-  }
-  .hero-top-right {
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    background-size: 100% 88%;
   }
 
   #learn-more-btn {
