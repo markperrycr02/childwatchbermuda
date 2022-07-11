@@ -362,11 +362,12 @@ ul.menu-items {
   .hero-top {
     height: 40vh;
   }
-
+*/
   .hero-bottom {
     flex-direction: column;
-    height: 60vh;
+    /* height: 60vh; */
   }
+  /*
   .hero-bottom-left {
     width: 100%;
   }
