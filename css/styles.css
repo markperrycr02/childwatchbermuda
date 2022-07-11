@@ -300,8 +300,8 @@ ul.menu-items {
 
   .hero-bottom-right {
     width: 100vw;
-    align-items: center;
-    padding-top: 4rem;
+    align-items: end;
+    /* padding-top: 4rem; */
     height: 50%;
   }
 
