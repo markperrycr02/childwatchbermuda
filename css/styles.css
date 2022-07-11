@@ -202,10 +202,6 @@ ul.menu-items {
   border-radius: 25px;
 }
 
-#learn-more-btn:hover {
-  background-color: #7d529d;
-}
-
 .mobile-overlay {
   display: none;
   flex-direction: column;
@@ -332,7 +328,11 @@ ul.menu-items {
     font-size: 1.2rem;
   }
 }
-
+@media (hover: hover) {
+  #learn-more-btn:hover {
+    background-color: #7d529d;
+  }
+}
 /* Tablet */
 
 @media screen and (min-device-width: 701px) and (max-device-width: 1200px) {
