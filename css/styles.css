@@ -320,7 +320,7 @@ ul.menu-items {
     width: 100vw;
     /* align-items: end; */
     padding-bottom: 1rem;
-    height: 50%;
+    height: auto;
   }
 
   #learn-more-btn {
