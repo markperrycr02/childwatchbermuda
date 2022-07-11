@@ -218,13 +218,22 @@ ul.menu-items {
   z-index: 10;
 }
 
+.overlay-menu {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 .close-btn {
   width: 100%;
+  position: relative;
   display: flex;
   justify-content: end;
-  padding-right: 1em;
-  padding-top: 1em;
+  padding-right: 0.4rem;
+  padding-top: 0.4rem;
 }
+
 .close-btn img {
   display: flex;
   width: 75px;
