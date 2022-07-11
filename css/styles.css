@@ -213,7 +213,7 @@ ul.menu-items {
   left: 0px;
   opacity: 0.9;
   background-color: black;
-  height: 0%;
+  height: 100%;
   width: 100%;
   transition: height 2s ease-out;
   color: white;
@@ -293,15 +293,16 @@ ul.menu-items {
   .hero-bottom-left {
     width: 100%;
     align-items: center;
-    height: 100%;
+    height: 50%;
+    width: 100vw;
   }
 
   .hero-bottom-right {
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     /* padding-bottom: rem; */
-    height: 100%;
+    height: 50%;
   }
 
   .hero-title-top {
@@ -316,11 +317,12 @@ ul.menu-items {
     width: 100%;
     /* padding-bottom: 20px; */
     width: 100%;
+    height: 50%;
   }
   .hero-top-right {
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 50%;
     background-size: 100% 88%;
   }
 
