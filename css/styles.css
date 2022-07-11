@@ -263,8 +263,7 @@ ul.menu-items {
 
   .hero-top {
     flex-direction: column;
-    height: auto;
-    /* padding-bottom: 20px; */
+    padding-bottom: 5px;
     height: 45vh;
   }
   .hero-bottom {
@@ -315,7 +314,7 @@ ul.menu-items {
   }
   .hero-top-left {
     width: 100%;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     width: 100%;
   }
   .hero-top-right {
