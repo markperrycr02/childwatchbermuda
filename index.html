@@ -15,7 +15,7 @@
 
     <div id="overlay" class="mobile-overlay">
       <div class="close-btn"> 
-        <img src="./img/ep_circle-close.svg" alt="">
+        <img id="menu-close-btn" src="./img/ep_circle-close.svg" alt="">
       </div>
       <div class="overlay-menu">
         <div>PLACE MENU ITEMS HERE</div>
@@ -79,11 +79,18 @@
     <script>
       const img = document.querySelector("#hero-img");
       const hamburger = document.querySelector("#hamburg");
-      const overlay = document.querySelector("#overlay");
+      const menu_close = document.querySelector("#menu-close-btn");
+      const overlay  = document.querySelector("#overlay");
+
 
       hamburg.addEventListener("click", () => {
         console.log("clicked hamburger");
         overlay.style.display = "flex";
+
+      })
+
+       menu_close.addEventListener("click", () => {
+        overlay.style.display = "none";
 
       })
 
