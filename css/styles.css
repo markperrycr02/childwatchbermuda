@@ -318,7 +318,7 @@ ul.menu-items {
 
   .hero-bottom-right {
     width: 100vw;
-    align-items: end;
+    /* align-items: end; */
     padding-bottom: 1rem;
     height: 50%;
   }
