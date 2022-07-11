@@ -216,7 +216,7 @@ ul.menu-items {
   background-color: black;
   height: 100vh;
   width: 100vw;
-  transition: height 2s ease-out;
+  transition: display 2s ease-out;
   color: white;
   z-index: 10;
 }
@@ -358,7 +358,7 @@ ul.menu-items {
   .hamburger {
     display: block;
   }
-
+  /* 
   .hero-top {
     height: 40vh;
   }
@@ -372,7 +372,7 @@ ul.menu-items {
   }
   .hero-bottom-right {
     width: 100%;
-  }
+  } */
   .hero-image {
     width: 25rem;
   }
