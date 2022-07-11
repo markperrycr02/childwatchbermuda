@@ -275,6 +275,7 @@ ul.menu-items {
   }
   .hero-top-left {
     width: 50vw;
+    align-items: end;
     /* padding-bottom: 20px; */
     height: auto;
   }
