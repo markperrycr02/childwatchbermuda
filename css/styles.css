@@ -374,7 +374,7 @@ ul.menu-items {
   }
 
   .hero-bottom-right {
-    padding: 0;
+    padding-bottom: 1rem;
     width: 100vw;
     align-items: flex-end;
   }
