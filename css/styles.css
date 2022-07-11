@@ -260,7 +260,7 @@ ul.menu-items {
   }
 
   .hero-top {
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-bottom: 5px;
     height: 45vh;
   }
