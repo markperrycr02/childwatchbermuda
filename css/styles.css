@@ -371,10 +371,10 @@ ul.menu-items {
   .hero-bottom-left {
     width: 100vw;
   }
-  /*
+
   .hero-bottom-right {
-    width: 100%;
-  } */
+    width: 100vw;
+  }
   .hero-image {
     width: 25rem;
   }
