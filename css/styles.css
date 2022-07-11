@@ -209,10 +209,10 @@ ul.menu-items {
   max-height: 0;
   width: 100vw;
   transition: max-height 3s;
-  -webkit-transition: max-height3s;
-  -moz-transition: max-height3s;
-  -ms-transition: max-height3s;
-  -o-transition: max-height3s;
+  -webkit-transition: max-height 3s;
+  -moz-transition: max-height 3s;
+  -ms-transition: max-height 3s;
+  -o-transition: max-height 3s;
   transition: max-height 3s;
   color: white;
   z-index: 10;
