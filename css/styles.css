@@ -376,6 +376,7 @@ ul.menu-items {
   .hero-bottom-right {
     padding: 0;
     width: 100vw;
+    align-items: flex-end;
   }
   .hero-image {
     width: 25rem;
