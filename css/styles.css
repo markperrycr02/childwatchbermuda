@@ -367,10 +367,11 @@ ul.menu-items {
     flex-direction: column;
     /* height: 60vh; */
   }
-  /*
+
   .hero-bottom-left {
-    width: 100%;
+    width: 100vw;
   }
+  /*
   .hero-bottom-right {
     width: 100%;
   } */
