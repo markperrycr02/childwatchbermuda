@@ -264,7 +264,7 @@ ul.menu-items {
   .hero-top {
     flex-direction: column;
     height: auto;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     height: 45vh;
   }
   .hero-bottom {
@@ -301,12 +301,12 @@ ul.menu-items {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    padding-bottom: 1rem;
+    /* padding-bottom: rem; */
     height: 100%;
   }
 
   .hero-title-top {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     justify-content: center;
     width: 100%;
   }
@@ -314,14 +314,15 @@ ul.menu-items {
     width: 12rem;
   }
   .hero-top-left {
-    width: 100vw;
+    width: 100%;
     padding-bottom: 20px;
+    width: 100%;
   }
   .hero-top-right {
     align-items: center;
     width: 100%;
     height: 100%;
-    background-size: 100% 100%;
+    background-size: 100% 88%;
   }
 
   #learn-more-btn {
