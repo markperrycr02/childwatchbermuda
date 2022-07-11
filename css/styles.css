@@ -208,12 +208,12 @@ ul.menu-items {
   background-color: black;
   max-height: 0;
   width: 100vw;
-  transition: max-height 1s ease-out;
-  -webkit-transition: max-height 1s;
-  -moz-transition: max-height 1s;
-  -ms-transition: max-height 1s;
-  -o-transition: max-height 1s;
-  transition: max-height 1s;
+  transition: max-height 3s;
+  -webkit-transition: max-height3s;
+  -moz-transition: max-height3s;
+  -ms-transition: max-height3s;
+  -o-transition: max-height3s;
+  transition: max-height 3s;
   color: white;
   z-index: 10;
 }
