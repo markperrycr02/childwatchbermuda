@@ -12,6 +12,10 @@
     />
   </head>
   <body>
+
+    <div id="overlay" class="mobile-overlay">OVERLAY</div> 
+
+  
     <div style="height: 100vh">
       <div class="navbar">
         <div class="nav-menu-wrapper">
@@ -25,11 +29,10 @@
             <li class="menu-item">Research</li>
           </ul>
           <div class="hamburger">
-          <img src="./img/hamburger.svg" alt="" />
+          <img id="hamburg" src="./img/hamburger.svg" alt="" />
         </div>
       </div>
     </div>
-
     <div class="hero">
       <div id="hero-top" class="hero-top">
         <div class="hero-top-left">
@@ -68,6 +71,15 @@
 
     <script>
       const img = document.querySelector("#hero-img");
+      const hamburger = document.querySelector("#hamburg");
+      const overlay = document.querySelector("#overlay");
+
+      hamburg.addEventListener("click", () => {
+        console.log("clicked hamburger");
+        overlay.style.display = "flex";
+
+      })
+
       img.addEventListener("click", () => {
         alert(screen.width + " x " + screen.height);
       });
