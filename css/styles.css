@@ -297,7 +297,7 @@ ul.menu-items {
   .hero-bottom-right {
     width: 100vw;
     align-items: end;
-    /* padding-top: 4rem; */
+    padding-bottom: 1rem;
     height: 50%;
   }
 
