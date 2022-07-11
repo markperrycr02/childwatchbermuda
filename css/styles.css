@@ -246,8 +246,6 @@ ul.menu-items {
 
 /* Mobile */
 @media screen and (max-width: 700px) {
-  #learn-more-btn:not:hover
-
   .nav-menu-wrapper {
     padding: 0 0.4em;
   }
@@ -339,7 +337,9 @@ ul.menu-items {
 
 @media screen and (min-device-width: 701px) and (max-device-width: 1200px) {
   /* @media screen and (min-device-width: 800px) and (max-device-width: 1024px) { */
-    #learn-more-btn:not:hover;
+
+    #learn-more-btn:not():hover;
+    
   .hero-bottom p.text-body {
     background-size: 18rem;
     padding-top: 1rem;
