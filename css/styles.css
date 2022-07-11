@@ -269,7 +269,6 @@ ul.menu-items {
   .hero-title-top {
     font-size: 2rem;
     justify-content: center;
-    width: 100%;
   }
   .hero-image {
     width: 10rem;
@@ -277,7 +276,6 @@ ul.menu-items {
   .hero-top-left {
     width: 50vw;
     /* padding-bottom: 20px; */
-    width: 100%;
     height: auto;
   }
   .hero-top-right {
