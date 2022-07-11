@@ -303,9 +303,10 @@ ul.menu-items {
   }
 
   .hero-bottom p.text-body {
-    font-size: 0.8rem;
+    font-size: 1.02rem;
     height: auto;
     padding-top: 0;
+    line-height: 1rem;
     color: black;
     padding: 0 10px 20px 10px;
     height: 100%;
