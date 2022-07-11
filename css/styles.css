@@ -210,11 +210,11 @@ ul.menu-items {
   background-color: black;
   height: 100%;
   width: 100vw;
-  -webkit-transition: transform 0.5s;
-  -moz-transition: transform 0.5s;
-  -ms-transition: transform 0.5s;
-  -o-transition: transform 0.5s;
-  transition: transform 0.5s;
+  -webkit-transition: transform3d 0.5s;
+  -moz-transition: transform3d 0.5s;
+  -ms-transition: transform3d 0.5s;
+  -o-transition: transform3d 0.5s;
+  transition: transform3d 0.5s;
   color: white;
   z-index: 10;
 }
