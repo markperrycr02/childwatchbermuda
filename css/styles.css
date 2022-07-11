@@ -272,6 +272,7 @@ ul.menu-items {
     justify-content: center;
   }
   .hero-image {
+    padding-top: 2px;
     width: 10rem;
     width: 13rem;
   }
