@@ -277,12 +277,12 @@ ul.menu-items {
     width: 50vw;
     /* padding-bottom: 20px; */
     width: 100%;
-    height: 50%;
+    height: auto;
   }
   .hero-top-right {
     align-items: center;
     width: 50vw;
-    height: 50%;
+    height: auto;
     background-size: 100% 88%;
   }
 
