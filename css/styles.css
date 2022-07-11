@@ -339,7 +339,7 @@ ul.menu-items {
   /* @media screen and (min-device-width: 800px) and (max-device-width: 1024px) { */
   .hero-bottom p.text-body {
     background-size: 18rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 0;
     height: auto;
   }
