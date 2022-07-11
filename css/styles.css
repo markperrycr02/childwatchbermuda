@@ -207,6 +207,7 @@ ul.menu-items {
 
 .mobile-overlay {
   display: none;
+  flex-direction: column;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -221,21 +222,20 @@ ul.menu-items {
 .overlay-menu {
   width: 100%;
   position: relative;
-  display: flex;
+  display: block;
   justify-content: center;
 }
 
 .close-btn {
+  display: flex;
   width: 100%;
   position: relative;
-  display: flex;
-  justify-content: end;
-  padding-right: 0.4em;
-  padding-top: 0.4em;
+  justify-content: flex-end;
+  padding-right: 1em;
+  padding-top: 1em;
 }
 
 .close-btn img {
-  display: flex;
   width: 50px;
   height: 50px;
 }
