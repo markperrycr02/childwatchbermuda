@@ -184,7 +184,6 @@ ul.menu-items {
   padding-left: 36px;
   display: flex;
   text-align: center;
-  /* justify-content: left; */
   font-size: 3rem;
   padding-top: 1rem;
   color: black;
@@ -214,7 +213,6 @@ ul.menu-items {
   font-family: "Poppins", sans-serif;
   background-color: #d156a1;
   color: white;
-
   border: none;
   outline: none;
   font-weight: 700;
@@ -315,11 +313,12 @@ ul.menu-items {
   .hero-image {
     width: 10rem;
   }
+
   .hero-top-left {
     width: 50vw;
-    /* padding-bottom: 20px; */
     height: 100%;
   }
+
   .hero-top-right {
     align-items: center;
     width: 50vw;
@@ -358,7 +357,7 @@ ul.menu-items {
 
   .hero-bottom-left {
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
     /* height: 50%; */
     width: 100vw;
   }
