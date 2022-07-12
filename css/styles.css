@@ -335,6 +335,7 @@ ul.menu-items {
   }
 
   .hero-bottom p.text-header {
+    justify-content: left;
     padding-left: 36px;
     font-size: 2rem;
     padding-top: 0px;
