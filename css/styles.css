@@ -387,7 +387,7 @@ ul.menu-items {
 
   .hero-bottom {
     flex-direction: column;
-    height: 50vh;
+    height: 100%;
   }
 
   .hero-bottom-left {
