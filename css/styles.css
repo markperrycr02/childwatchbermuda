@@ -293,7 +293,7 @@ ul.menu-items {
 
   .hero-bottom p.text-header {
     font-size: 1.5rem;
-
+    padding-top: 0px;
     padding-bottom: 0.5em;
     color: black;
   }
@@ -328,6 +328,7 @@ ul.menu-items {
     font-size: 1.2rem;
   }
 }
+
 @media (hover: hover) {
   #learn-more-btn:hover {
     background-color: #7d529d;
