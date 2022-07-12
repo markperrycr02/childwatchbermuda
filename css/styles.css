@@ -248,12 +248,13 @@ ul.menu-items {
     z-index: 10;
   }
   .nav-menu-wrapper {
-    padding: 0 0.4em;
+    align-items: center;
+    /* padding: 0 0.4em; */
     padding: 0px 20px;
   }
 
   .menu-logo > span {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   ul.menu-items {
