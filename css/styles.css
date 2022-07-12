@@ -381,7 +381,6 @@ ul.menu-items {
     position: fixed;
     top: 0px;
     left: 0px;
-    opacity: 0.9;
     background-color: black;
     height: 100%;
     width: 100vw;
@@ -389,6 +388,14 @@ ul.menu-items {
     color: white;
     z-index: 10;
   }
+
+  .overlay-menu {
+    line-height: 4rem;
+  }
+  .overlay-menu ul li {
+    font-size: 2rem;
+  }
+
   .hero-bottom p.text-body {
     background-size: 18rem;
     padding-top: 1rem;
