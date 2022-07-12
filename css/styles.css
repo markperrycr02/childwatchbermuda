@@ -159,7 +159,7 @@ ul.menu-items {
 .hero-bottom p.text-header {
   display: flex;
   justify-content: center;
-  font-size: 2.2rem;
+  font-size: 4rem;
   padding-top: 1rem;
   /* width: 100%; */
   color: black;
@@ -199,24 +199,6 @@ ul.menu-items {
   border-radius: 25px;
 }
 
-.mobile-overlay {
-  overflow: hidden;
-  display: none;
-  transform: translate3d(-100vw, 0, 0);
-  flex-direction: column;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  opacity: 0.9;
-  background-color: black;
-  height: 100%;
-  width: 100vw;
-
-  transition: transform 0.5s;
-  color: white;
-  z-index: 10;
-}
-
 .overlay-menu {
   display: flex;
 
@@ -247,6 +229,22 @@ ul.menu-items {
 
 /* Mobile */
 @media screen and (max-width: 700px) {
+  .mobile-overlay {
+    overflow: hidden;
+    display: flex;
+    transform: translate3d(-100vw, 0, 0);
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+    background-color: black;
+    height: 100%;
+    width: 100vw;
+    transition: transform 0.5s;
+    color: white;
+    z-index: 10;
+  }
   .nav-menu-wrapper {
     padding: 0 0.4em;
   }
@@ -344,6 +342,22 @@ ul.menu-items {
 /* Tablet */
 
 @media screen and (min-device-width: 701px) and (max-device-width: 1200px) {
+  .mobile-overlay {
+    overflow: hidden;
+    display: flex;
+    transform: translate3d(-100vw, 0, 0);
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+    background-color: black;
+    height: 100%;
+    width: 100vw;
+    transition: transform 0.5s;
+    color: white;
+    z-index: 10;
+  }
   .hero-bottom p.text-body {
     background-size: 18rem;
     padding-top: 1rem;
