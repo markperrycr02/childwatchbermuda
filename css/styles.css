@@ -104,7 +104,6 @@ ul.menu-items {
 .hero {
   display: flex;
   flex-direction: column;
-  padding-top: var(--nav-height);
 }
 
 /* top section of Hero section */
@@ -373,6 +372,9 @@ ul.menu-items {
 /* Tablet */
 
 @media screen and (min-device-width: 701px) and (max-device-width: 1200px) {
+  .hero {
+    padding-top: var(--nav-height);
+  }
   .mobile-overlay {
     overflow: hidden;
     display: flex;
