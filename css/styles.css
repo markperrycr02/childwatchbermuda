@@ -53,8 +53,9 @@ body {
 .overlay-menu ul {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   text-align: center;
+  list-style: none;
 }
 
 .overlay-menu {
