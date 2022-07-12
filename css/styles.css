@@ -89,7 +89,7 @@ body {
 }
 
 ul.menu-items {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   display: flex;
   align-items: center;
   list-style: none;
@@ -245,12 +245,15 @@ ul.menu-items {
   height: 50px;
 }
 
-.more-info {
+.vh90 {
   height: 90vh;
+  display: flex;
+  flex-direction: column;
   /* margin-top: calc(var(--nav-height)); */
   color: white;
-  background-color: #633e69;
+  /* background-color: #633e69; */
 }
+
 /* Media Queries */
 
 /* Mobile */
