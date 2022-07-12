@@ -222,8 +222,8 @@ ul.menu-items {
 }
 
 .more-info {
-  height: 100vh;
-
+  height: 90vh;
+  /* margin-top: calc(var(--nav-height)); */
   color: white;
   background-color: orange;
 }
