@@ -176,6 +176,7 @@ ul.menu-items {
   height: 100%;
   padding-top: 1rem;
   color: black;
+  text-align: justify;
 }
 
 .hamburger {
