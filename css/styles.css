@@ -181,11 +181,11 @@ ul.menu-items {
 }
 
 .hero-bottom p.text-header {
+  padding-left: 36px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   font-size: 3rem;
   padding-top: 1rem;
-  /* width: 100%; */
   color: black;
   font-family: "Poppins", sans-serif;
 }
@@ -245,13 +245,16 @@ ul.menu-items {
   height: 50px;
 }
 
+.more-page {
+  flex-direction: column;
+  color: white;
+  display: flex;
+  padding-left: 36px;
+  padding-top: 2rem;
+}
+
 .vh90 {
   height: 90vh;
-  display: flex;
-  flex-direction: column;
-  /* margin-top: calc(var(--nav-height)); */
-  color: white;
-  /* background-color: #633e69; */
 }
 
 /* Media Queries */
@@ -332,6 +335,7 @@ ul.menu-items {
   }
 
   .hero-bottom p.text-header {
+    padding-left: 36px;
     font-size: 2rem;
     padding-top: 0px;
     padding-bottom: 0.5em;
