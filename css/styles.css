@@ -264,7 +264,6 @@ ul.menu-items {
     position: fixed;
     top: 0px;
     left: 0px;
-
     background-color: black;
     height: 100%;
     width: 100vw;
@@ -273,12 +272,14 @@ ul.menu-items {
     z-index: 10;
   }
 
+  .overlay-menu {
+    display: flex;
+  }
+
   .nav-menu-wrapper {
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
-    /* padding: 0 0.4em; */
-    /* padding: 0px 20px; */
   }
 
   .menu-logo > span {
@@ -294,8 +295,6 @@ ul.menu-items {
   }
 
   .hero-top {
-    /* flex-direction: column; */
-    /* padding-bottom: 5px; */
     padding: 0 0;
     height: 25vh;
   }
