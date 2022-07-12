@@ -224,7 +224,8 @@ ul.menu-items {
 .more-info {
   height: 100vh;
   padding-top: calc(var(--nav-height));
-  color: orange;
+  color: white;
+  background-color: orange;
 }
 /* Media Queries */
 
