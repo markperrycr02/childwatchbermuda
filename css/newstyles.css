@@ -35,6 +35,9 @@ body {
 }
 
 .fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   background: var(--bg-radial);
   width: 100vw;
