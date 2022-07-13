@@ -117,3 +117,10 @@ body {
     display: flex;
   }
 }
+
+@media screen and (min-width: 577px) and (max-width: 1300px) {
+  .fixed-header-wrapper {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
