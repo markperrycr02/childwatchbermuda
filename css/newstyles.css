@@ -70,6 +70,6 @@ body {
 .menu-items {
   list-style: none;
   display: flex;
-  font-size: large;
+  font-size: 1.5rem;
   gap: 1.5rem;
 }
