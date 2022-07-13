@@ -34,16 +34,18 @@ body {
 }
 
 .fixed-header {
+  display: flex;
   background: var(--bg-radial);
   color: white;
   width: 100vw;
+  height: auto;
 }
 
 .fixed-header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 200px;
+  width: 100%;
 }
 
 .title-and-image {
