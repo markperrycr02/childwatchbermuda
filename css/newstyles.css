@@ -95,7 +95,7 @@ body {
   width: 2rem;
 }
 
-@media screen and (min-width: 320px) and (max-width: 576px) {
+@media screen and (min-width: 321px) and (max-width: 926px) {
   .fixed-header-wrapper {
     padding-left: 10px;
     padding-right: 10px;
