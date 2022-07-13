@@ -96,7 +96,7 @@ body {
     object-fit: cover;
   }
 
-  .map img {
-    width: 7rem;
+  .map {
+    width: 5rem;
   }
 }
