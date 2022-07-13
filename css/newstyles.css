@@ -41,6 +41,8 @@ body {
   display: flex;
   background: var(--bg-radial);
   width: 100vw;
+  height: 10rem;
+  overflow: hidden;
 }
 
 .fixed-header-wrapper {
@@ -96,6 +98,10 @@ body {
 
 .hamburger-menu img {
   width: 2rem;
+}
+
+.main-content {
+  margin-top: 10rem;
 }
 
 @media screen and (min-width: 321px) and (max-width: 926px) {
