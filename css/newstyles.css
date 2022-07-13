@@ -37,9 +37,7 @@ body {
 .fixed-header {
   display: flex;
   background: var(--bg-radial);
-  /* color: white; */
   width: 100vw;
-  height: auto;
 }
 
 .fixed-header-wrapper {
@@ -53,21 +51,17 @@ body {
 
 .title-and-image {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .map {
-  display: flex;
-  margin-left: -170px;
-}
-
-.map img {
-  width: 150px;
+  width: 10rem;
+  padding: 10px 0;
 }
 
 .child-pic {
-  padding-left: 50px;
+  /* padding-left: 10px; */
 }
+
 .child-pic img {
   width: 150px;
 }
@@ -81,7 +75,11 @@ body {
 }
 
 .hamburger-menu {
-  color: white;
+  /* color: white; */
+}
+
+.hamburger-menu img {
+  width: 2rem;
 }
 
 @media screen and (max-width: 700px) {
