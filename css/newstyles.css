@@ -118,6 +118,7 @@ body {
   height: calc(100vh - 126px);
   background: url("https://cwbermuda.netlify.com/img/background.svg") no-repeat
     center 1rem fixed;
+  background-size: cover;
 }
 
 .row {
