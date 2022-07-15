@@ -66,13 +66,8 @@ body {
   font-family: Caveat, sans-serif;
   padding-left: 20px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 40px;
   color: white;
-}
-
-.map {
-  width: 10rem;
-  padding: 10px 0;
 }
 
 .child-pic img {
@@ -121,8 +116,8 @@ body {
   padding-left: var(--content-padding);
   background-color: white;
   height: calc(100vh - 126px);
-  background: url("http://localhost:5500/img/background.svg") no-repeat center
-    1rem fixed;
+  background: url("https://cwbermuda.netlify.com/img/background.svg") no-repeat
+    center 1rem fixed;
 }
 
 .row {
@@ -171,60 +166,4 @@ body {
 
 .text-justify {
   text-align: justify;
-}
-.col-center {
-  align-items: center;
-  justify-content: center;
-}
-
-.row-center {
-  justify-content: center;
-  align-items: center;
-}
-
-@media screen and (min-width: 321px) and (max-width: 926px) {
-  .fixed-header {
-    height: 5rem;
-  }
-
-  .fixed-header-wrapper {
-    --content-padding: 10px;
-    padding-left: var(--content-padding);
-    padding-right: var(--content-padding);
-  }
-  .main-content {
-    --content-padding: 10px;
-    padding-left: var(--content-padding);
-    padding-right: var(--content-padding);
-  }
-
-  .menu-items-container {
-    display: none;
-  }
-  .child-pic img {
-    width: 5rem;
-    object-fit: cover;
-  }
-
-  .map {
-    width: 5rem;
-  }
-
-  .hamburger-menu {
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 577px) and (max-width: 1300px) {
-  .fixed-header-wrapper {
-    --content-padding: 5rem;
-    padding-left: var(--content-padding);
-    padding-right: var(--content-padding);
-  }
-
-  .main-content {
-    --content-padding: 5rem;
-    padding-left: var(--content-padding);
-    padding-right: var(--content-padding);
-  }
 }
