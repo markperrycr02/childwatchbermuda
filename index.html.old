@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Childwatch | Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+   
+  </head>
+  <body>
+
+    <div id="overlay" class="mobile-overlay">
+      <div class="close-btn"> 
+        <img id="menu-close-btn" src="./img/ep_circle-close.svg" alt="">
+      </div>
+      <div class="overlay-menu">
+        <ul>
+         <li>Home</li>
+          <li>Objectives</li>
+          <li>Research</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </div> 
+  
+
+    <div class="main-wrapper" style="height: 100vh">
+      <div class="navbar">
+        <div class="nav-menu-wrapper">
+          <div class="menu-logo">
+            <span>CHILDWATCH BDA</span>
+          </div>
+          <ul class="menu-items">
+            <li>Home</li>
+          <li>Objectives</li>
+          <li>Research</li>
+          <li>Contact us</li>
+          </ul>
+          <div class="hamburger">
+          <img id="hamburg" src="./img/hamburger.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="hero">
+      <div id="hero-top" class="hero-top">
+        <div class="hero-top-left">
+          <img
+            id="hero-img"
+            class="hero-image"
+            src="./img/hero-image.svg"
+            alt=""
+          />
+        </div>
+
+        <div class="hero-top-right">
+          <div class="hero-title-top">
+            ChildWatch<br />
+            Bermuda
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <div class="hero-bottom-left">
+          <p class="text-header">About Us</p>
+          <p class="text-body">
+            ChildWatch is an all volunteer non-profit self-funded action group of concerned parents, initially fathers, serving the citizens of Bermuda and Bermudian overseas. Our aim is to effect change in the laws, and society's views
+            on the rights of single and divorced fathers, to actively share in
+            the day-to-day rearing of their children and, to even be the primary
+            cargiver.
+          </p>
+        </div>
+        <div class="hero-bottom-right">
+          <button id="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+      <!-- More about ChildWatch -->
+      <div class="more-page vh90">
+        <h1>Why we formed</h1>
+      </div>
+
+    <script defer src="./main.js"></script>
+  </body>
+</html>

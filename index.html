@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,79 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Childwatch | Home</title>
     <link rel="stylesheet" href="css/styles.css" />
-   
   </head>
   <body>
-
-    <div id="overlay" class="mobile-overlay">
-      <div class="close-btn"> 
-        <img id="menu-close-btn" src="./img/ep_circle-close.svg" alt="">
-      </div>
-      <div class="overlay-menu">
-        <ul>
-         <li>Home</li>
-          <li>Objectives</li>
-          <li>Research</li>
-          <li>Contact us</li>
-        </ul>
-      </div>
-    </div> 
-  
-
-    <div class="main-wrapper" style="height: 100vh">
-      <div class="navbar">
-        <div class="nav-menu-wrapper">
-          <div class="menu-logo">
-            <span>CHILDWATCH BDA</span>
-          </div>
-          <ul class="menu-items">
-            <li>Home</li>
-          <li>Objectives</li>
-          <li>Research</li>
-          <li>Contact us</li>
-          </ul>
-          <div class="hamburger">
-          <img id="hamburg" src="./img/hamburger.svg" alt="" />
+    <div class="fixed-header">
+      <div class="fixed-header-wrapper">
+        <div class="logo">
+          <div><img src="img/logo.svg" alt="" /></div>
+          <div class="logo-text">ChildWatch Bermuda</div>
         </div>
+
+        <div class="menu-items-container">
+          <ul id="menu_items" class="menu-items">
+            <li class="item active">Home</li>
+            <li>Objectives</li>
+            <li>Research</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div class="hamburger-menu"><img src="img/hamburger.svg" alt="" /></div>
       </div>
     </div>
-    <div class="hero">
-      <div id="hero-top" class="hero-top">
-        <div class="hero-top-left">
-          <img
-            id="hero-img"
-            class="hero-image"
-            src="./img/hero-image.svg"
-            alt=""
-          />
-        </div>
 
-        <div class="hero-top-right">
-          <div class="hero-title-top">
-            ChildWatch<br />
-            Bermuda
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-bottom">
-        <div class="hero-bottom-left">
-          <p class="text-header">About Us</p>
-          <p class="text-body">
-            ChildWatch is an all volunteer non-profit self-funded action group of concerned parents, initially fathers, serving the citizens of Bermuda and Bermudian overseas. Our aim is to effect change in the laws, and society's views
+    <div class="main-content">
+      <span class="heading">About Us</span>
+      <div class="row">
+        <div class="info">
+          <div class="sub-heading">Who we are</div>
+          <hr class="short-underline" />
+          <div class="text-area">
+            ChildWatch is an action group of concerned parents, initially
+            fathers. Our aim is to effect change in the laws and society's views
             on the rights of single and divorced fathers, to actively share in
             the day-to-day rearing of their children and, to even be the primary
             cargiver.
-          </p>
+          </div>
         </div>
-        <div class="hero-bottom-right">
-          <button id="learn-more-btn">Learn More</button>
+        <div class="info">
+          <div class="sub-heading">Why we formed</div>
+          <hr class="short-underline" />
+          <div class="text-area">
+            To address issues pertaining to the unjust treatment of responsible
+            and caring Fathers in relationship to theor parental rights over the
+            welfare and upbringing of their children and, to bring focus and
+            improvement on the enforcement of the custody laws.
+          </div>
         </div>
       </div>
-      <!-- More about ChildWatch -->
-      <div class="more-page vh90">
-        <h1>Why we formed</h1>
+      <div class="row">
+        <div class="info">
+          <div class="sub-heading">Mission Statement</div>
+          <hr class="short-underline" />
+          <div class="text-area">
+            ChildWatch is an action group of concerned parents, initially
+            fathers. Our aim is to effect change in the laws and society's views
+            on the rights of single and divorced fathers, to actively share in
+            the day-to-day rearing of their children and, to even be the primary
+            cargiver.
+          </div>
+        </div>
+        <div class="info flex-justify-center">
+          <div class="button">
+            Our Objectives <img width="25" src="img/right-arrow.svg" alt="" />
+          </div>
+        </div>
       </div>
+    </div>
 
     <script defer src="./main.js"></script>
   </body>
