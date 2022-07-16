@@ -150,7 +150,7 @@ a.button {
 }
 
 .flex-justify-center {
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
