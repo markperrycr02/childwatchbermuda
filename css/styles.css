@@ -87,7 +87,7 @@ body {
   cursor: pointer;
 }
 
-li a {
+ul.menu-items > a {
   color: white;
   text-decoration: none;
 }
@@ -99,6 +99,7 @@ li a {
 
 .menu-items li.active {
   border-bottom: 5px solid #da1e78;
+  cursor: default;
 }
 
 .menu-items li:hover {
@@ -122,8 +123,7 @@ li a {
   padding-left: var(--content-padding);
   background-color: rgb(180, 49, 49);
   height: calc(100vh - 126px);
-  background: url("https://cwbermuda.netlify.com/img/background.svg") no-repeat
-    center 1rem fixed;
+  background: url("/img/background.svg") no-repeat center 1rem fixed;
   background-size: cover;
 }
 
