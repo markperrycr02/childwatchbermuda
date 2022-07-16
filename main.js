@@ -1,8 +1,7 @@
-const img = document.querySelector("#hero-img");
+const logo = document.querySelector(".logo");
 const hamburger = document.querySelector("#hamburg");
 const menu_close = document.querySelector("#menu-close-btn");
 const overlay = document.querySelector("#overlay");
-const learmore = document.querySelector("#learn-more-btn");
 let active_item = document.querySelector("li.active");
 
 const menu_items = document.querySelectorAll(".menu-items > li");
@@ -29,6 +28,6 @@ function update_menu_items(item_clicked) {
 //   overlay.style.transform = "translate3d(-100vw,0,0)";
 // });
 
-// img.addEventListener("click", () => {
-//   alert(screen.width + " x " + screen.height);
-// });
+logo.addEventListener("click", () => {
+  alert(screen.width + " x " + screen.height);
+});

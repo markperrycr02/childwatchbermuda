@@ -58,7 +58,7 @@ body {
   padding-right: var(--content-padding);
 }
 
-.title-and-image {
+.logo {
   display: flex;
   align-items: center;
 }
@@ -114,7 +114,7 @@ body {
   padding-top: 1rem;
   padding-right: var(--content-padding);
   padding-left: var(--content-padding);
-  background-color: white;
+  background-color: rgb(180, 49, 49);
   height: calc(100vh - 126px);
   background: url("https://cwbermuda.netlify.com/img/background.svg") no-repeat
     center 1rem fixed;
