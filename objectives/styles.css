@@ -1,16 +1,20 @@
 .main-content {
-  background: url("../img/girl-face-2.svg") no-repeat center 1rem fixed;
-  background-size: cover;
+  background: none;
+  padding-right: 0;
+  width: 100vw;
 }
 
+.wrapper {
+  display: flex;
+}
 .objectives-list {
   display: flex;
   flex-direction: column;
-  width: 47vw;
-  height: 61vh;
+  justify-content: center;
+  width: 60vw;
   overflow: scroll;
   margin-top: 30px;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 .objectives-list::-webkit-scrollbar {
@@ -50,4 +54,5 @@
   height: 4px;
   border: none;
   background-color: #da1e78;
+  margin-bottom: 30px;
 }

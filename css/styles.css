@@ -47,6 +47,7 @@ body {
   width: 100vw;
   height: 126px;
   overflow: hidden;
+  z-index: 900;
 }
 
 .fixed-header-wrapper {
@@ -184,6 +185,11 @@ a.button {
   font-size: 36px;
   color: black;
   font-weight: 700;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
 }
 
 .short-underline {
