@@ -2,3 +2,52 @@
   background: url("../img/girl-face-2.svg") no-repeat center 1rem fixed;
   background-size: cover;
 }
+
+.objectives-list {
+  display: flex;
+  flex-direction: column;
+  width: 47vw;
+  height: 61vh;
+  overflow: scroll;
+  margin-top: 30px;
+  /* scroll-behavior: smooth; */
+}
+
+.objectives-list::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.objectives-list::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+
+.objectives-list::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white; /* should match background, can't be transparent */
+  background-color: rgba(212, 32, 119, 0.279);
+}
+
+.objective-line {
+  display: flex;
+  /* align-items: flex-start; */
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.objective-line img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: text-top;
+}
+
+.sub-heading {
+  padding: 0;
+}
+.short-underline {
+  width: 50px;
+  height: 4px;
+  border: none;
+  background-color: #da1e78;
+}
