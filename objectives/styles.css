@@ -1,3 +1,11 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .main-content {
   background: none;
   padding-right: 0;
@@ -50,17 +58,17 @@
 .img-wrapper img {
   overflow: hidden;
   height: 90vh;
+  width: 40vw;
+  justify-content: flex-end;
 }
 
 .img-wrapper {
   display: flex;
   position: absolute;
   height: auto;
-  width: 20%;
-  right: 0;
   height: 90vh;
   flex: 0;
-  margin-top: -16px;
+  /* margin-top: -16px; */
   overflow: hidden;
 
   background: url("img/girl-thin.svg");

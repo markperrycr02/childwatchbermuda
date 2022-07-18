@@ -1,67 +1,68 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link rel="stylesheet" href="css/test.css" />
   </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .wrapper {
+      display: flex;
+      height: 100vh;
+      width: 100vw;
+      justify-content: space-between;
+    }
+    .text-content {
+      display: flex;
+      padding-left: 3rem;
+      flex-direction: column;
+
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+      font-weight: normal;
+    }
+
+    .text-line {
+      display: flex;
+    }
+
+    .checkmark {
+      width: 5rem;
+    }
+    .image-content {
+      display: flex;
+      height: 100%;
+      align-self: end;
+      justify-self: flex-end;
+    }
+    .image-content img {
+      width: 100%;
+      display: inline-block;
+      object-fit: cover;
+    }
+  </style>
   <body>
     <div class="wrapper">
-      
-    </div>
-    <div class="navbar">
-      <div class="container flex">
-        <h2>Childwatch Bermuda</h2>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Contact us</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Showcase -->
-    <section class="showcase">
-      <div class="container grid">
-        <div  class="showcase-text">
-        
-          <div class="heading">
-            <span style="display:flex; align-items:center">
-              <img class="bdamap"  src="/img/bdamap.svg" alt="">
-              <span class="showcase-title">
-                About Childwatch Bermuda
-              </span>  
-            </span> 
+      <div class="text-content">
+        <div style="display: flex">
+          <div style="display: flex; width: 5rem">
+            <img src="./objectives/img/checkmark.svg" alt="" />
           </div>
-          <p style="text-align: justify;"> 
-            Childwatch is an action group of concerned parents, initially Fathers, with the aim to affect change in the laws and socitiey’s views on the rights of a single father to actively share in the day-to-day rearing of their children and, to even be the primary caregiver
-          </p>
-        </div>
-        <div style="justify-content: right;">
-             <img class="showcase-pic"  src="/img/family.svg"><div></div>   
-      </div>
-    </section>
-    <section class="showcase">
-      <div class="container grid">
-        <div  class="showcase-text">
-        
-          <div class="heading">
-            <span style="display:flex; align-items:center">
-              <img class="bdamap" style="width:100px; height:100px" src="/img/bdamap.svg" alt="">
-              <span class="showcase-title">Childwatch Bermuda</span>
-            </span> 
+          <div>
+            Keep the well being of the child the focus of parenting for both
+            parties
           </div>
-          <p style="text-align: justify;"> 
-            Childwatch is an action group of concerned parents, initially Fathers, with the aim to affect change in the laws and socitiey’s views on the rights of a single father to actively share in the day-to-day rearing of their children and, to even be the primary caregiver
-          </p>
         </div>
-        <div style="justify-content: right;">
-             <img class="showcase-pic"  src="/img/family.svg"><div></div>   
       </div>
-    </section>
-
-  
+      <div class="image-content">
+        <img src="./objectives/img/girl-thin.svg" alt="" />
+      </div>
+    </div>
   </body>
 </html>
