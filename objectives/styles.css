@@ -49,15 +49,17 @@
 
 .img-wrapper img {
   overflow: hidden;
-  object-fit: scale-down;
+  height: 90vh;
 }
 
 .img-wrapper {
   display: flex;
   position: absolute;
-  height: 90vh;
+  height: auto;
   width: 20%;
   right: 0;
+  height: 90vh;
+  flex: 0;
   margin-top: -16px;
   overflow: hidden;
 
