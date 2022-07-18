@@ -49,12 +49,10 @@
 .img-wrapper {
   display: flex;
   position: absolute;
-  width: 30vw;
   height: 90vh;
   right: 0;
-  background-color: red;
-  background: url("img/girl-thin.svg");
-  background-repeat: no-repeat;
+  /* background: url("img/girl-thin.svg"); */
+  /* background-repeat: no-repeat; */
   margin-top: -16px;
 }
 
