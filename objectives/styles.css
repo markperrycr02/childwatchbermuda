@@ -48,6 +48,7 @@
 }
 
 .img-wrapper img {
+  overflow: hidden;
 }
 
 .img-wrapper {
