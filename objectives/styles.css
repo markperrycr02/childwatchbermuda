@@ -49,11 +49,11 @@
 .img-wrapper {
   display: flex;
   position: absolute;
-  height: 90vh;
+  height: calc(100vh - var(--nav-height));
   right: 0;
   /* background: url("img/girl-thin.svg"); */
   /* background-repeat: no-repeat; */
-  margin-top: -16px;
+  /* margin-top: -16px; */
 }
 
 .sub-heading {
