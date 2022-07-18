@@ -2,6 +2,7 @@
   background: none;
   padding-right: 0;
   width: 100vw;
+  height: 90vh;
 }
 
 .wrapper {
@@ -46,13 +47,21 @@
   vertical-align: text-top;
 }
 
+.img-wrapper img {
+}
+
 .img-wrapper {
   display: flex;
   position: absolute;
-  height: calc(100vh - var(--nav-height));
+  height: 90vh;
+  width: 20%;
   right: 0;
-  /* background: url("img/girl-thin.svg"); */
-  /* background-repeat: no-repeat; */
+  margin-top: -16px;
+
+  background: url("img/girl-thin.svg");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* margin-top: -16px; */
 }
 
