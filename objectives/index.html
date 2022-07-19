@@ -29,10 +29,10 @@
 
     .wrapper {
       display: flex;
-      height: 100vh;
-      margin-top: 126px;
+      /* height: calc(100vh - var(--nav-height)); */
+      /* margin-top: 126px; */
       justify-content: space-between;
-      margin-top: var(--nav-height);
+      padding-top: var(--nav-height);
     }
 
     .objectives-content {
@@ -60,7 +60,7 @@
 
     .image-content {
       display: flex;
-      height: 100%;
+      padding-top: --var(--nav-height);
     }
     .image-content img {
       width: 100%;
@@ -76,13 +76,13 @@
       margin-bottom: 30px;
     }
 
-    .heading {
+    /* .heading {
       display: flex;
       font-size: 36px;
       color: black;
       font-weight: 700;
       list-style: 1;
-    }
+    } */
   </style>
   <body>
     <div class="fixed-header">
