@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Childwatch | Home</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="fixed-header">
+      <div class="fixed-header-wrapper">
+        <div class="logo">
+          <div><img src="../img/logo.svg" alt="" /></div>
+          <div class="logo-text">ChildWatch Bermuda</div>
+        </div>
+
+        <div class="menu-items-container">
+          <ul id="menu_items" class="menu-items">
+            <a href="../"><li class="item">Home</li></a>
+            <li class="item active">Objectives</li>
+            <a href="../research"><li class="item">Research</li></a>
+            <a href="../contact"><li class="item">Contact us</li></a>
+          </ul>
+        </div>
+        <div class="hamburger-menu">
+          <img src="../img/hamburger.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="wrapper">
+        <div class="objectives-list">
+          <div class="heading">Our Objectives</div>
+          <hr class="short-underline" />
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            <div>
+              Keep the well being of the child the focus of parenting for both
+              parties.
+            </div>
+          </div>
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            Champion the child’s rights to enjoy equal access to both biological
+            parents.
+          </div>
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            To satisfy in the eyes of the law, that either mother or father can
+            be equally effectve as primary caregivers.
+          </div>
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            Promote fair an unbiased judgements in child custody cases.
+          </div>
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            Ensure that fathers are given equal opportunity to provide a
+            positive male role in their child’s day-to-day life.
+          </div>
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            Educate society on the vital role and significance of the father in
+            the child’s life.
+          </div>
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            Mentor and lend support to disenfranchised fathers who are trying to
+            a positive role in their child’s life.
+          </div>
+          <div class="objective-line">
+            <img src="./img/checkmark.svg" alt="" />
+            Provide mediation for couples and in particular fathers, so that
+            children are as unaffected as possible during a separation or
+            divorce.
+          </div>
+        </div>
+        <div class="img-wrapper">
+          <!-- <img src="./img/girl-thin.svg" alt="" /> -->
+        </div>
+      </div>
+    </div>
+
+    <script defer src="../main.js"></script>
+  </body>
+</html>
