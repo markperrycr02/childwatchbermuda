@@ -122,7 +122,7 @@ ul.menu-items > a {
   padding-top: 1rem;
   padding-right: var(--content-padding);
   padding-left: var(--content-padding);
-  background-color: rgb(180, 49, 49);
+  /* background-color: rgb(180, 49, 49); */
   height: calc(100vh - 126px);
   background: url("/img/background.svg") no-repeat center 1rem fixed;
   background-size: cover;
