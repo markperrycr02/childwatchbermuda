@@ -6,6 +6,10 @@
     <title>Document</title>
   </head>
   <style>
+    :root {
+      --checkmark: "'./objectives/img/checkmark.svg'";
+    }
+
     * {
       padding: 0;
       margin: 0;
@@ -17,10 +21,13 @@
       width: 100vw;
       justify-content: space-between;
     }
-    .text-content {
+    .objectives-content {
       display: flex;
       padding-left: 3rem;
+      padding-top: 3rem;
+      justify-content: start;
       flex-direction: column;
+      /* line-height: 1.8; */
 
       width: 100%;
       margin-bottom: 10px;
@@ -28,36 +35,100 @@
       font-weight: normal;
     }
 
-    .text-line {
+    .row {
       display: flex;
+      margin-bottom: 2rem;
+      /* line-height: 1.8; */
+      /* align-self: flex-start; */
     }
 
-    .checkmark {
-      width: 5rem;
+    .row img {
+      padding-right: 1rem;
     }
+
     .image-content {
       display: flex;
       height: 100%;
-      align-self: end;
-      justify-self: flex-end;
+      /* align-self: end; */
+      /* justify-self: flex-end; */
     }
     .image-content img {
       width: 100%;
       display: inline-block;
       object-fit: cover;
     }
+
+    .short-underline {
+      width: 50px;
+      height: 4px;
+      border: none;
+      background-color: #da1e78;
+      margin-bottom: 30px;
+    }
+
+    .heading {
+      display: flex;
+      font-size: 36px;
+      color: black;
+      font-weight: 700;
+      list-style: 1;
+    }
+
+    .objective {
+      /* text-align: center; */
+    }
+
+    .objective img {
+    }
   </style>
   <body>
     <div class="wrapper">
-      <div class="text-content">
-        <div style="display: flex">
-          <div style="display: flex; width: 5rem">
-            <img src="./objectives/img/checkmark.svg" alt="" />
-          </div>
-          <div>
-            Keep the well being of the child the focus of parenting for both
-            parties
-          </div>
+      <div class="objectives-content">
+        <div class="heading">Our Objectives</div>
+        <hr class="short-underline" />
+
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" />
+          Keep the well being of the child the focus of parenting for both
+          parties
+        </div>
+
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" />
+          Champion the child’s rights to enjoy equal access to both biological
+          parents.
+        </div>
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" /> Promote fair an unbiased
+          judgements in child custody cases.
+        </div>
+
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" /> Ensure that fathers are
+          given equal opportunity to provide a positive male role in their
+          child’s day-to-day life.
+        </div>
+
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" /> Educate society on the
+          vital role and significance of the father in the child’s life.
+        </div>
+
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" /> Mentor and lend support
+          to disenfranchised fathers who are trying to a positive role in their
+          child’s life.
+        </div>
+
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" /> Provide mediation for
+          couples and in particular fathers, so that children are as unaffected
+          as possible during a separation or divorce.
+        </div>
+
+        <div class="row">
+          <img src="./objectives/img/checkmark.svg" /> Keep the well being of
+          the child the focus of parenting for both parties
         </div>
       </div>
       <div class="image-content">
